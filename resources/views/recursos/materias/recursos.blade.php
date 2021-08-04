@@ -5,11 +5,11 @@
     {{--    Condicional de rutas con variable grado--}}
     @if($grado !== 'tercer-grado' && $grado !== 'segundo-grado' && $grado !== 'tercer-grado')
 
-        <div class="container">
-            <div class="row d-flex justify-content-center">
-                <h1>404 - Página no encontrada</h1>
-            </div>
-        </div>
+{{--        <div class="container">--}}
+{{--            <div class="row d-flex justify-content-center">--}}
+{{--                <h1>404 - Página no encontrada</h1>--}}
+{{--            </div>--}}
+{{--        </div>--}}
 
     @endif
 
