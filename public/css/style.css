@@ -1,4 +1,4 @@
-/* 
+/*
 font-family: 'Neucha', cursive;
 font-family: 'Poppins', sans-serif;
 */
@@ -17,7 +17,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 html {
-    font-size: 62.5%;    
+    font-size: 62.5%;
 }
 
 body {
@@ -109,67 +109,67 @@ header .cta button {
 .hamburger{
     display: none;
     background-color:transparent;
-	left:0;
-	width:30px;
-	-webkit-transform:translate3d(0, 0, 0);
-	transform:translate3d(0, 0, 0);
-	-webkit-transition:-webkit-transform 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
-	transition:transform 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
-	z-index:1002;
-	cursor:pointer;
-	-webkit-user-select:none;
-	-moz-user-select:none;
-	-ms-user-select:none;
-	user-select:none
+    left:0;
+    width:30px;
+    -webkit-transform:translate3d(0, 0, 0);
+    transform:translate3d(0, 0, 0);
+    -webkit-transition:-webkit-transform 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+    transition:transform 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+    z-index:1002;
+    cursor:pointer;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none
 }
 
 .hamburger.is-active{
-  background-color:none;
+    background-color:none;
 }
 
 ._layer{
-	background:#333333;
-	margin-bottom:4px;
-	border-radius:2px;
-	width:28px;
-	height:4px;
-	opacity:1;
-	-webkit-transform:translate3d(0, 0, 0);
-	transform:translate3d(0, 0, 0);
-	-webkit-transition:all 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
-	transition:all 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+    background:#333333;
+    margin-bottom:4px;
+    border-radius:2px;
+    width:28px;
+    height:4px;
+    opacity:1;
+    -webkit-transform:translate3d(0, 0, 0);
+    transform:translate3d(0, 0, 0);
+    -webkit-transition:all 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+    transition:all 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
 }
 
 .hamburger:hover .-top{
-	-webkit-transform:translateY(-100%);
-	-ms-transform:translateY(-100%);
-	transform:translateY(-100%);
+    -webkit-transform:translateY(-100%);
+    -ms-transform:translateY(-100%);
+    transform:translateY(-100%);
 }
 
 .hamburger:hover .-bottom{
-	-webkit-transform:translateY(50%);
-	-ms-transform:translateY(100%);
-	transform:translateY(100%);
+    -webkit-transform:translateY(50%);
+    -ms-transform:translateY(100%);
+    transform:translateY(100%);
 }
 
 .hamburger.is-active .-top{
-	-webkit-transform:translateY(200%) rotate(45deg) !important;
-	-ms-transform:translateY(200%) rotate(45deg) !important;
-	transform:translateY(200%) rotate(45deg) !important;
+    -webkit-transform:translateY(200%) rotate(45deg) !important;
+    -ms-transform:translateY(200%) rotate(45deg) !important;
+    transform:translateY(200%) rotate(45deg) !important;
 }
 
 .hamburger.is-active .-mid{
-	opacity:0;
+    opacity:0;
 }
 
 .hamburger.is-active .-bottom{
-	-webkit-transform:translateY(-200%) rotate(135deg) !important;
-	-ms-transform:translateY(-200%) rotate(135deg) !important;
-	transform:translateY(-200%) rotate(135deg) !important;
+    -webkit-transform:translateY(-200%) rotate(135deg) !important;
+    -ms-transform:translateY(-200%) rotate(135deg) !important;
+    transform:translateY(-200%) rotate(135deg) !important;
 }
 
 .menuppal.is_active{
-  transform: translate3d(0px, 0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
 }
 
 .menuppal{
@@ -191,26 +191,26 @@ header .cta button {
     padding:0;
 }
 
-.menuppal ul li { 
+.menuppal ul li {
     list-style: none;
-	text-align:center;
-	font-size:1.6rem;
+    text-align:center;
+    font-size:1.6rem;
     font-family: 'Poppins', sans-serif;
-	line-height:3em;
-	height:3em;
+    line-height:3em;
+    height:3em;
     color:var(--dark-blue);
-	text-transform:none;
-	font-weight:bold;
+    text-transform:none;
+    font-weight:bold;
 }
 
 .menuppal ul li a{
-  text-decoration:none;
-  color:#369;
+    text-decoration:none;
+    color:#369;
 }
 
 .menuppal ul li a:hover{
-  text-decoration:none;
-  color:#333;
+    text-decoration:none;
+    color:#333;
 }
 
 /* FOOTER */
@@ -322,7 +322,7 @@ footer .footer-up .links .links-right ol li a {
 footer .footer-up .links .links-left ol li a:hover,
 footer .footer-up .links .links-right ol li a:hover {
     text-decoration: underline;
-} 
+}
 
 footer .cta-up {
     background: var(--yellow);
@@ -424,9 +424,9 @@ footer .rrss-footer a:last-child {
 
 
 .container-main .school-resources {
-   width: 40%;
-   padding: 40px 20px 0px 20px;
-   box-sizing: border-box;
+    width: 40%;
+    padding: 40px 20px 0px 20px;
+    box-sizing: border-box;
 }
 
 .container-main .school-grades .title,
@@ -460,16 +460,16 @@ footer .rrss-footer a:last-child {
 }
 
 .container-cards label .-n {
-    width: 56px;
-    min-width: 56px;
-    height: 56px;
-    min-height: 56px;
-    background: #F2F2F2;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+                             width: 56px;
+                             min-width: 56px;
+                             height: 56px;
+                             min-height: 56px;
+                             background: #F2F2F2;
+                             border-radius: 10px;
+                             display: flex;
+                             justify-content: center;
+                             align-items: center;
+                         }
 
 .container-cards .card {
     margin-bottom: 25px;
@@ -555,10 +555,10 @@ footer .rrss-footer a:last-child {
 }
 
 .scanned-book .book {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
 
 }
 
@@ -680,7 +680,7 @@ footer .rrss-footer a:last-child {
     left: 0;
     display: flex;
     justify-content: center;
-    
+
 }
 
 .display-video .text-video .next-btn button {
@@ -711,7 +711,7 @@ footer .rrss-footer a:last-child {
     }
 
     .school-resources .contain-books .book {
-       margin-right: 30px
+        margin-right: 30px
     }
 }
 
@@ -725,7 +725,7 @@ footer .rrss-footer a:last-child {
     .hamburger {
         display: block;
     }
-    
+
     header .nav-one {
         display: none;
     }
@@ -772,12 +772,12 @@ footer .rrss-footer a:last-child {
     .container-main .school-grades .container-cards .card,
     .container-main .school-material .container-cards .card {
         min-width: 300px;
-    }  
+    }
 
     .container-scanned-book .max-w .scanned-book {
         width: 100%
     }
-    
+
     .container-scanned-book .max-w .school-resources {
         width: 100%;
     }
@@ -796,7 +796,7 @@ footer .rrss-footer a:last-child {
         margin-top: 30px;
     }
 
-    
+
     .display-video .video {
         margin:0;
         width: 100%;
@@ -813,7 +813,7 @@ footer .rrss-footer a:last-child {
     .container-main .school-grades .container-cards .card,
     .container-main .school-material .container-cards .card {
         margin-right: 30px;
-    }  
+    }
 }
 
 @media (max-width: 768px) {
@@ -838,7 +838,7 @@ footer .rrss-footer a:last-child {
     .container-main .school-grades .container-cards .card,
     .container-main .school-material .container-cards .card {
         margin-right: 0px;
-    }  
+    }
 }
 
 @media (max-width: 667px) {
@@ -895,15 +895,15 @@ footer .rrss-footer a:last-child {
     .school-resources .contain-books .book {
         margin-right: 0;
     }
-    
+
 }
 
 @media (max-width: 375px) {
     .container-main .school-grades .container-cards .card,
     .container-main .school-material .container-cards .card {
         min-width: 280px;
-    } 
-    
+    }
+
     .container-main .school-material .container-cards {
         overflow-x: hidden;
     }
