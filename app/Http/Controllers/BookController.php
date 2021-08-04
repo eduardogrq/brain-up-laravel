@@ -85,4 +85,12 @@ class BookController extends Controller
     public function book($grado, $materia){
         return view('recursos.materias.recursos', compact('grado', 'materia'));
     }
+
+    public function video($grado){
+        return view('recursos.videos.index', compact('grado'));
+    }
+
+    public function maestro(){
+        return view('recursos.maestros.index');
+    }
 }
