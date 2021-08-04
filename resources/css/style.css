@@ -1,0 +1,914 @@
+/* 
+font-family: 'Neucha', cursive;
+font-family: 'Poppins', sans-serif;
+*/
+
+:root {
+    --blue: #24AAD0;
+    --green: #A4BC57;
+    --yellow:  #EDDB69;
+    --dark-blue: #003D6F;
+    --gray: #5B5B5E;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;    
+}
+
+body {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+    overflow-x: hidden;
+    background: #F2F2F2;
+}
+
+header {
+    box-sizing: border-box;
+    width: 100vw;
+    padding: 0 30px;
+    height: 80px;
+    background: #FFF;
+    box-shadow: 0px 2px 25px 0px rgba(0, 0, 0, .25);
+    display: flex;
+    justify-content: center;
+}
+
+header nav ol {
+    display: flex;
+    list-style: none;
+}
+
+header nav ol li {
+    margin-right: 30px;
+}
+
+header nav ol li:last-child {
+    margin-right: 0;
+}
+
+header nav ol li a {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    padding: 10px;
+    text-align: center;
+}
+
+.max-w {
+    max-width: 1330px;
+}
+
+header .max-w {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .align-nav {
+    display: flex;
+    align-items: center;
+}
+
+header .logo {
+    width: 80px;
+    height: 64px;
+}
+
+header .logo img {
+    width: 100%;
+}
+
+header .cta button {
+    box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, .15);
+    width: 180px;
+    height: 52px;
+    border: none;
+    border-radius: 10px;
+    background: var(--blue);
+    color: #FFF;
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* MAIN */
+
+.hamburger{
+    display: none;
+    background-color:transparent;
+	left:0;
+	width:30px;
+	-webkit-transform:translate3d(0, 0, 0);
+	transform:translate3d(0, 0, 0);
+	-webkit-transition:-webkit-transform 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+	transition:transform 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+	z-index:1002;
+	cursor:pointer;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none
+}
+
+.hamburger.is-active{
+  background-color:none;
+}
+
+._layer{
+	background:#333333;
+	margin-bottom:4px;
+	border-radius:2px;
+	width:28px;
+	height:4px;
+	opacity:1;
+	-webkit-transform:translate3d(0, 0, 0);
+	transform:translate3d(0, 0, 0);
+	-webkit-transition:all 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+	transition:all 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+}
+
+.hamburger:hover .-top{
+	-webkit-transform:translateY(-100%);
+	-ms-transform:translateY(-100%);
+	transform:translateY(-100%);
+}
+
+.hamburger:hover .-bottom{
+	-webkit-transform:translateY(50%);
+	-ms-transform:translateY(100%);
+	transform:translateY(100%);
+}
+
+.hamburger.is-active .-top{
+	-webkit-transform:translateY(200%) rotate(45deg) !important;
+	-ms-transform:translateY(200%) rotate(45deg) !important;
+	transform:translateY(200%) rotate(45deg) !important;
+}
+
+.hamburger.is-active .-mid{
+	opacity:0;
+}
+
+.hamburger.is-active .-bottom{
+	-webkit-transform:translateY(-200%) rotate(135deg) !important;
+	-ms-transform:translateY(-200%) rotate(135deg) !important;
+	transform:translateY(-200%) rotate(135deg) !important;
+}
+
+.menuppal.is_active{
+  transform: translate3d(0px, 0px, 0px);
+}
+
+.menuppal{
+    background-color: rgba(255, 255, 255, 0.95);
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    overflow-y: scroll;
+    position: fixed;
+    top: 0;
+    transform: translate3d(0px, -100%, 0px);
+    transition: transform 0.35s cubic-bezier(0.05, 1.04, 0.72, 0.98) 0s;
+    width: 100%;
+    z-index: 1001;
+}
+
+.menuppal ul{
+    margin:0;
+    padding:0;
+}
+
+.menuppal ul li { 
+    list-style: none;
+	text-align:center;
+	font-size:1.6rem;
+    font-family: 'Poppins', sans-serif;
+	line-height:3em;
+	height:3em;
+    color:var(--dark-blue);
+	text-transform:none;
+	font-weight:bold;
+}
+
+.menuppal ul li a{
+  text-decoration:none;
+  color:#369;
+}
+
+.menuppal ul li a:hover{
+  text-decoration:none;
+  color:#333;
+}
+
+/* FOOTER */
+
+footer {
+    background: var(--dark-blue);
+    position: relative;
+}
+
+.footer-border {
+    display: flex;
+    width: 100%;
+    height: 10px;
+}
+
+.footer-border .border-left,
+.footer-border .border-middle,
+.footer-border .border-right {
+    width: 33.33%;
+    height: 100%;
+}
+
+.footer-border .border-left {
+    background: var(--blue);
+}
+
+.footer-border .border-middle {
+    background: var(--yellow);
+}
+
+.footer-border .border-right {
+    background: var(--green);
+}
+
+footer .max-w {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px;
+}
+
+footer .footer-up {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+footer .footer-up .brand .logo-footer {
+    width: 60px;
+    min-width: 60px;
+    height: 60px;
+    min-height: 60px;
+    overflow: hidden;
+    margin-bottom: 14px;
+}
+
+footer .footer-up .brand .logo-footer img {
+    width: 100%;
+}
+
+footer .footer-up .brand p {
+    color: #FFF;
+    margin-bottom: none;
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+footer .footer-up .links {
+    display: flex;
+}
+
+footer .footer-up .links .links-left,
+footer .footer-up .links .links-right {
+    margin-right: 70px;
+}
+
+footer .footer-up .links .links-left h4,
+footer .footer-up .links .links-right h4 {
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: var(--yellow);
+    margin-bottom: 20px;
+}
+
+footer .footer-up .links .links-left ol,
+footer .footer-up .links .links-right ol {
+    list-style: none;
+}
+
+footer .footer-up .links .links-left ol li,
+footer .footer-up .links .links-right ol li {
+    margin-bottom: 15px;
+}
+
+
+footer .footer-up .links .links-left ol li a,
+footer .footer-up .links .links-right ol li a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+footer .footer-up .links .links-left ol li a:hover,
+footer .footer-up .links .links-right ol li a:hover {
+    text-decoration: underline;
+} 
+
+footer .cta-up {
+    background: var(--yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    min-width: 50px;
+    height: 50px;
+    min-height: 50px;
+    border-radius: 100%;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+}
+
+footer .footer-down {
+    width: 100%;
+
+}
+
+footer .footer-down h4{
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #FFF;
+    line-height: 150%;
+    margin-bottom: 20px;
+}
+
+footer .footer-down .contain-email input[type=email] {
+    width: 289px;
+    height: 50px;
+    border: none;
+    border-radius: 8px 8px 0px 0px;
+    padding-left: 10px;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400px;
+    background: rgba(255, 255, 255, .2);
+    color: var(--dark-blue);
+    border-bottom: 2px solid rgba(255, 255, 255, .5);
+}
+
+footer .footer-down .contain-email button {
+    width: 50px;
+    min-width: 50px;
+    height: 52px;
+    min-height: 50px;
+    border: none;
+    border-radius: 8px 8px 0px 0px;
+    background: var(--yellow);
+    margin-left: -53px;
+}
+
+footer .rrss-footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 30px;
+}
+
+footer .rrss-footer a {
+    text-decoration: none;
+}
+
+footer .rrss-footer a:last-child {
+    margin-left: 40px;
+}
+
+.container-main .max-w{
+    display: flex;
+    min-height: 90vh;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.container-main .school-grades,
+.container-main .school-material {
+    width: 30%;
+    padding: 40px 20px 0px 20px;
+    box-sizing: border-box;
+}
+
+.container-main .school-grades:hover{
+    background: var(--blue);
+    transition-duration: 0.5s;
+}
+
+.container-main .school-material:hover {
+    background: var(--yellow);
+    transition-duration: 0.5s;
+}
+
+.container-main .school-resources:hover {
+    background: rgb(46, 46, 46);
+    transition-duration: 0.5s;
+}
+
+
+.container-main .school-resources {
+   width: 40%;
+   padding: 40px 20px 0px 20px;
+   box-sizing: border-box;
+}
+
+.container-main .school-grades .title,
+.container-main .school-material .title,
+.container-main .school-resources .title {
+    margin-bottom: 30px;
+}
+
+.container-main .school-grades .title h2,
+.container-main .school-material .title h2,
+.container-main .school-resources .title h2,
+.container-main .scanned-book .title h2 {
+    font-size: 3.2rem;
+    font-family: 'Neucha', sans-serif;
+    color: var(--dark-blue);
+}
+
+.container-cards input[type=radio] {
+    display: none;
+}
+
+.container-cards label {
+    display: flex;
+    padding: 10px;
+    width: 90%;
+    max-width: 300px;
+    box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, .15);
+    border-radius: 5px;
+    background: #FFF;
+    cursor: pointer;
+}
+
+.container-cards label .-n {
+    width: 56px;
+    min-width: 56px;
+    height: 56px;
+    min-height: 56px;
+    background: #F2F2F2;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-cards .card {
+    margin-bottom: 25px;
+}
+
+.container-cards label .text {
+    margin-left: 20px;
+}
+
+.container-cards label .text h4 {
+    font-size: 2.6rem;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: #333333;
+}
+
+.container-cards label .text p {
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-top: -4px;
+}
+
+.container-cards input[type="radio"]:checked + label {
+    border-left: 5px solid var(--green);
+    color: var(--green);
+}
+
+.container-cards input[type="radio"]:checked + label .text h4 {
+    color: var(--green);
+}
+
+.school-material,
+.school-resources {
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.school-resources .contain-books {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+}
+
+.school-resources .contain-books .book {
+    margin-bottom: 30px;
+    text-decoration: none;
+    margin: 0 10px 0px 0px;
+}
+
+.school-resources .contain-books .book .title-book h4{
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: #000;
+}
+.school-resources:hover .contain-books .book .title-book h4{
+    color: white;
+}
+
+.school-resources:hover .title h2{
+    color: white;
+}
+
+/* SCANNED BOOK */
+
+.container-scanned-book .max-w .scanned-book {
+    width: 30%;
+    padding: 40px 20px 0px 20px;
+}
+
+.container-scanned-book .max-w .school-resources {
+    width: 70%;
+}
+
+.scanned-book {
+    overflow-y: scroll;
+    box-sizing: border-box;
+}
+
+.scanned-book .book {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 30px;
+
+}
+
+.scanned-book .book .cover-page {
+    margin-bottom: 15px;
+    height: 380px;
+}
+
+.scanned-book .book {
+    text-decoration: none;
+}
+
+.scanned-book .book .cover-page img {
+    height: 100%;
+}
+
+.scanned-book .book .title-book h4 {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+
+.container-video-display-2 .school-material {
+    width: 100%;
+}
+
+.container-video-display-2 .school-material:hover {
+    background: none;
+}
+
+.container-video-display-2 .school-material .container-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-video-display-2 .school-material .container-cards .card label{
+    min-width: 290px;
+    margin-right: 10px;
+}
+
+.btn-return {
+    box-sizing: border-box;
+    padding: 20px 0px 0px 20px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.btn-return .arrow-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    min-height: 40px;
+    background: var(--yellow);
+    border-radius: 100%;
+}
+
+.btn-return .arrow-right img {
+    height: 18px;
+    margin-right: 2px;
+}
+
+.btn-return p{
+    margin-bottom: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+
+.m-3 {
+    margin-top: 30px;
+}
+
+.display-video {
+    display: flex;
+    padding: 50px 30px;
+    box-sizing: inherit;
+}
+
+.display-video .text-video {
+    border: 2px solid var(--blue);
+    width: 40%;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 20px;
+    position: relative;
+}
+
+.display-video .text-video h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: var(--blue);
+}
+
+.bg-blue-light {
+    background: #E9F7FA;
+}
+
+.display-video .text-video p {
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.display-video .text-video .next-btn {
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.display-video .text-video .next-btn button {
+    width: 240px;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    background: var(--blue);
+    color: #FFF;
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.display-video .video {
+    margin: auto 0;
+    width: 58%;
+    /* background: blue; */
+    border-radius: 30px;
+    margin-left: 2%;
+    height: 400px;
+}
+
+@media (max-width: 1164px) {
+    .school-resources .contain-books {
+        justify-content: flex-start;
+    }
+
+    .school-resources .contain-books .book {
+       margin-right: 30px
+    }
+}
+
+@media (max-width: 1000px) {
+    .container-video-display-2 .school-material .container-cards {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 997px){
+    .hamburger {
+        display: block;
+    }
+    
+    header .nav-one {
+        display: none;
+    }
+
+    footer .footer-up {
+        flex-direction: column;
+    }
+
+    footer .footer-up .links {
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+
+    footer .footer-up .links .links-left,
+    footer .footer-up .links .links-right {
+        margin-right: 0;
+    }
+
+    footer .footer-down {
+        margin-top: 40px;
+    }
+
+    .container-main .max-w{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .container-main .school-grades,
+    .container-main .school-material {
+        width: 100%;
+    }
+
+    .container-main .school-resources {
+        width: 100%;
+    }
+
+    .container-main .school-grades .container-cards,
+    .container-main .school-material .container-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .container-main .school-grades .container-cards .card,
+    .container-main .school-material .container-cards .card {
+        min-width: 300px;
+    }  
+
+    .container-scanned-book .max-w .scanned-book {
+        width: 100%
+    }
+    
+    .container-scanned-book .max-w .school-resources {
+        width: 100%;
+    }
+
+    .container-video-display-2 .school-material .container-cards {
+        justify-content: center;
+    }
+
+    .display-video {
+        flex-direction: column;
+    }
+
+    .display-video .text-video {
+        width: 100%;
+        order: 2;
+        margin-top: 30px;
+    }
+
+    
+    .display-video .video {
+        margin:0;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 939px) {
+    .container-main .school-grades .container-cards,
+    .container-main .school-material .container-cards {
+        justify-content: flex-start;
+    }
+
+    .container-main .school-grades .container-cards .card,
+    .container-main .school-material .container-cards .card {
+        margin-right: 30px;
+    }  
+}
+
+@media (max-width: 768px) {
+    .display-video .video {
+        height: 300px;
+    }
+}
+
+@media (max-width: 739px) {
+    .container-video-display-2 .school-material .container-cards {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 699px) {
+    .container-main .school-grades .container-cards,
+    .container-main .school-material .container-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-main .school-grades .container-cards .card,
+    .container-main .school-material .container-cards .card {
+        margin-right: 0px;
+    }  
+}
+
+@media (max-width: 667px) {
+    header .logo {
+        display: none;
+    }
+
+    header .max-w {
+        justify-content: flex-end;
+    }
+
+    .hamburger{
+        position: absolute;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 567px) {
+    footer .footer-up .links {
+        flex-direction: column;
+    }
+
+    footer .footer-up .links .links-right {
+        margin-top: 30px;
+    }
+
+    footer .rrss-footer {
+        left: 0;
+        margin: 30px;
+    }
+
+    footer .footer-down .contain-email input[type=email] {
+        width: 260px;
+        margin-bottom: 50px;
+    }
+
+    footer .footer-down .contain-email button {
+        margin-left: -53px;
+    }
+}
+
+@media (max-width: 487px) {
+    .display-video .video {
+        height: 220px;
+    }
+}
+
+@media (max-width: 399px) {
+    .school-resources .contain-books {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .school-resources .contain-books .book {
+        margin-right: 0;
+    }
+    
+}
+
+@media (max-width: 375px) {
+    .container-main .school-grades .container-cards .card,
+    .container-main .school-material .container-cards .card {
+        min-width: 280px;
+    } 
+    
+    .container-main .school-material .container-cards {
+        overflow-x: hidden;
+    }
+}
+
+.selected-button{
+    background: red;
+}
