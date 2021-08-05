@@ -65,6 +65,7 @@
                     <div class="container-cards">
 
                         <div class="card" id="biologia-materia">
+                            <div class="mt-5 position-absolute d-flex align-items-center justify-content-end" style="width: 5%; margin-left: 95%;"><a href="{{url('/recursos/primer-grado/biologia')}}" class="mt-2 mr-2 mr-md-3 mr-lg-4">VER</a> </div>
                             <input type="radio" id="primero-biologia" name="respuesta-2">
                             <label for="primero-biologia" class="label-pregunta-test">
                                 <div class="-n">
@@ -79,6 +80,7 @@
                         </div>
 
                         <div class="card" id="espanol-materia">
+                            <div class="mt-5 position-absolute d-flex align-items-center justify-content-end" style="width: 5%; margin-left: 95%;"><a href="{{url('/recursos/primer-grado/espanol')}}" class="mt-2 mr-2 mr-md-3 mr-lg-4">VER</a> </div>
                             <input type="radio" id="primero-espanol" name="respuesta-2">
                             <label for="primero-espanol" class="label-pregunta-test">
                                 <div class="-n">
@@ -92,6 +94,7 @@
                         </div>
 
                         <div class="card" id="fce-materia">
+                            <div class="mt-5 position-absolute d-flex align-items-center justify-content-end" style="width: 5%; margin-left: 95%;"><a href="{{url('/recursos/primer-grado/fce')}}" class="mt-2 mr-2 mr-md-3 mr-lg-4">VER</a> </div>
                             <input type="radio" id="primero-fce" name="respuesta-2">
                             <label for="primero-fce" class="label-pregunta-test">
                                 <div class="-n">
@@ -106,6 +109,7 @@
 
 
                         <div class="card" id="geografia-materia">
+                            <div class="mt-5 position-absolute d-flex align-items-center justify-content-end" style="width: 5%; margin-left: 95%;"><a href="{{url('/recursos/primer-grado/geografia')}}" class="mt-2 mr-2 mr-md-3 mr-lg-4">VER</a> </div>
                             <input type="radio" id="primero-geografia" name="respuesta-2">
                             <label for="primero-geografia" class="label-pregunta-test">
                                 <div class="-n">
@@ -119,6 +123,7 @@
                         </div>
 
                         <div class="card" id="historia-materia">
+                            <div class="mt-5 position-absolute d-flex align-items-center justify-content-end" style="width: 5%; margin-left: 95%;"><a href="{{url('/recursos/primer-grado/historia')}}" class="mt-2 mr-2 mr-md-3 mr-lg-4">VER</a> </div>
                             <input type="radio" id="primero-historia" name="respuesta-2">
                             <label for="primero-historia" class="label-pregunta-test">
                                 <div class="-n">
@@ -132,6 +137,7 @@
                         </div>
 
                         <div class="card" id="ingles-materia">
+                            <div class="mt-5 position-absolute d-flex align-items-center justify-content-end" style="width: 5%; margin-left: 95%;"><a href="{{url('/recursos/primer-grado/ingles')}}" class="mt-2 mr-2 mr-md-3 mr-lg-4">VER</a> </div>
                             <input type="radio" id="primero-ingles" name="respuesta-2">
                             <label for="primero-ingles" class="label-pregunta-test">
                                 <div class="-n">
@@ -145,6 +151,7 @@
                         </div>
 
                         <div class="card" id="matematicas-materia">
+                            <div class="mt-5 position-absolute d-flex align-items-center justify-content-end" style="width: 5%; margin-left: 95%;"><a href="{{url('/recursos/primer-grado/matematicas')}}" class="mt-2 mr-2 mr-md-3 mr-lg-4">VER</a> </div>
                             <input type="radio" id="primero-matematicas" name="respuesta-2">
                             <label for="primero-matematicas" class="label-pregunta-test">
                                 <div class="-n">
@@ -169,6 +176,7 @@
                     <!-- <form action=""> -->
                     <div class="container-cards">
                         <div class="card" id="segundo-espanol-materia">
+                            <div class="mt-5 position-absolute d-flex align-items-center justify-content-end" style="width: 5%; margin-left: 95%;"><a href="{{url('/recursos/segundo-grado/espanol')}}" class="mt-2 mr-2 mr-md-3 mr-lg-4">VER</a> </div>
                             <input type="radio" id="segundo-espanol" name="respuesta-2">
                             <label for="segundo-espanol" class="label-pregunta-test">
                                 <div class="-n">
@@ -181,6 +189,7 @@
                             </label>
                         </div>
                         <div class="card" id="segundo-fce-materia">
+                            <div class="mt-5 position-absolute d-flex align-items-center justify-content-end" style="width: 5%; margin-left: 95%;"><a href="{{url('/recursos/segundo-grado/fce')}}" class="mt-2 mr-2 mr-md-3 mr-lg-4">VER</a> </div>
                             <input type="radio" id="segundo-fce" name="respuesta-2">
                             <label for="segundo-fce" class="label-pregunta-test">
                                 <div class="-n">
@@ -193,6 +202,7 @@
                             </label>
                         </div>
                         <div class="card" id="segundo-fisica-materia">
+                            <div class="mt-5 position-absolute d-flex align-items-center justify-content-end" style="width: 5%; margin-left: 95%;"><a href="{{url('/recursos/segundo-grado/fisica')}}" class="mt-2 mr-2 mr-md-3 mr-lg-4">VER</a> </div>
                             <input type="radio" id="segundo-fisica" name="respuesta-2">
                             <label for="segundo-fisica" class="label-pregunta-test">
                                 <div class="-n">
@@ -205,6 +215,7 @@
                             </label>
                         </div>
                         <div class="card" id="segundo-historia-materia">
+                            <div class="mt-5 position-absolute d-flex align-items-center justify-content-end" style="width: 5%; margin-left: 95%;"><a href="{{url('/recursos/segundo-grado/historia')}}" class="mt-2 mr-2 mr-md-3 mr-lg-4">VER</a> </div>
                             <input type="radio" id="segundo-historia" name="respuesta-2">
                             <label for="segundo-historia" class="label-pregunta-test">
                                 <div class="-n">
@@ -217,6 +228,7 @@
                             </label>
                         </div>
                         <div class="card" id="segundo-ingles-materia">
+                            <div class="mt-5 position-absolute d-flex align-items-center justify-content-end" style="width: 5%; margin-left: 95%;"><a href="{{url('/recursos/segundo-grado/ingles')}}" class="mt-2 mr-2 mr-md-3 mr-lg-4">VER</a> </div>
                             <input type="radio" id="segundo-ingles" name="respuesta-2">
                             <label for="segundo-ingles" class="label-pregunta-test">
                                 <div class="-n">
@@ -229,6 +241,7 @@
                             </label>
                         </div>
                         <div class="card" id="segundo-matematicas-materia">
+                            <div class="mt-5 position-absolute d-flex align-items-center justify-content-end" style="width: 5%; margin-left: 95%;"><a href="{{url('/recursos/segundo-grado/matematicas')}}" class="mt-2 mr-2 mr-md-3 mr-lg-4">VER</a> </div>
                             <input type="radio" id="segundo-matematicas" name="respuesta-2">
                             <label for="segundo-matematicas" class="label-pregunta-test">
                                 <div class="-n">
@@ -254,8 +267,8 @@
                     <!-- <form action=""> -->
                     <div class="container-cards">
 
-                        <div class="card" id="tercero-espanol-materia">
-                            <!-- <div class="d-flex position-absolute align-items-center justify-content-end" style="width: 100%; height: 100%;"><a href="" class="mr-4"><i class="fas fa-download"></i></a> </div> -->
+                        <div class="card d-flex" id="tercero-espanol-materia">
+                            <div class="mt-5 position-absolute d-flex align-items-center justify-content-end" style="width: 5%; margin-left: 95%;"><a href="{{url('/recursos/tercer-grado/espanol')}}" class="mt-2 mr-2 mr-md-3 mr-lg-4">VER</a> </div>
                             <input type="radio" id="tercero-espanol" name="respuesta-2">
                             <label for="tercero-espanol" class="label-pregunta-test">
                                 <div class="-n">
@@ -268,6 +281,7 @@
                             </label>
                         </div>
                         <div class="card" id="tercero-fce-materia">
+                            <div class="mt-5 position-absolute d-flex align-items-center justify-content-end" style="width: 5%; margin-left: 95%;"><a href="{{url('/recursos/tercer-grado/fce')}}" class="mt-2 mr-2 mr-md-3 mr-lg-4">VER</a> </div>
                             <input type="radio" id="tercero-fce" name="respuesta-2">
                             <label for="tercero-fce" class="label-pregunta-test">
                                 <div class="-n">
@@ -281,6 +295,7 @@
                         </div>
                         <div class="card" id="tercero-historia-materia">
                             <input type="radio" id="tercero-historia" name="respuesta-2">
+                            <div class="mt-5 position-absolute d-flex align-items-center justify-content-end" style="width: 5%; margin-left: 95%;"><a href="{{url('/recursos/tercer-grado/historia')}}" class="mt-2 mr-2 mr-md-3 mr-lg-4">VER</a> </div>
                             <label for="tercero-historia" class="label-pregunta-test">
                                 <div class="-n">
                                     <img src="./assets/imgs/mathematics.png" alt="Icono de Matemáticas">
@@ -292,6 +307,7 @@
                             </label>
                         </div>
                         <div class="card" id="tercero-ingles-materia">
+                            <div class="mt-5 position-absolute d-flex align-items-center justify-content-end" style="width: 5%; margin-left: 95%;"><a href="{{url('/recursos/tercer-grado/ingles')}}" class="mt-2 mr-2 mr-md-3 mr-lg-4">VER</a> </div>
                             <input type="radio" id="tercero-ingles" name="respuesta-2">
                             <label for="tercero-ingles" class="label-pregunta-test">
                                 <div class="-n">
@@ -304,6 +320,7 @@
                             </label>
                         </div>
                         <div class="card" id="tercero-matematicas-materia">
+                            <div class="mt-5 position-absolute d-flex align-items-center justify-content-end" style="width: 5%; margin-left: 95%;"><a href="{{url('/recursos/tercer-grado/matematicas')}}" class="mt-2 mr-2 mr-md-3 mr-lg-4">VER</a> </div>
                             <input type="radio" id="tercero-matematicas" name="respuesta-2">
                             <label for="tercero-matematicas" class="label-pregunta-test">
                                 <div class="-n">
@@ -317,6 +334,7 @@
                         </div>
 
                         <div class="card" id="tercero-quimica-materia">
+                            <div class="mt-5 position-absolute d-flex align-items-center justify-content-end" style="width: 5%; margin-left: 95%;"><a href="{{url('/recursos/tercer-grado/quimica')}}" class="mt-2 mr-2 mr-md-3 mr-lg-4">VER</a> </div>
                             <input type="radio" id="tercero-quimica" name="respuesta-2">
                             <label for="tercero-quimica" class="label-pregunta-test">
                                 <div class="-n">
