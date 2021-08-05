@@ -69,7 +69,7 @@
                             <input type="radio" id="primero-biologia" name="respuesta-2">
                             <label for="primero-biologia" class="label-pregunta-test">
                                 <div class="-n">
-                                    <img src="./assets/imgs/science.png" alt="Icono de Física">
+                                    <img src="./assets/imgs/biologia.png" alt="Icono de Física">
                                 </div>
                                 <div class="text">
                                     <h4>Biología</h4>
@@ -84,7 +84,7 @@
                             <input type="radio" id="primero-espanol" name="respuesta-2">
                             <label for="primero-espanol" class="label-pregunta-test">
                                 <div class="-n">
-                                    <img src="./assets/imgs/language.png" alt="Icono de Matemáticas">
+                                    <img src="./assets/imgs/espanol.png" alt="Icono de Matemáticas">
                                 </div>
                                 <div class="text">
                                     <h4>Español</h4>
@@ -98,7 +98,7 @@
                             <input type="radio" id="primero-fce" name="respuesta-2">
                             <label for="primero-fce" class="label-pregunta-test">
                                 <div class="-n">
-                                    <img src="./assets/imgs/chemistry.png" alt="Icono de Química">
+                                    <img src="./assets/imgs/fce.png" alt="Icono de Química">
                                 </div>
                                 <div class="text">
                                     <h4>FCE</h4>
@@ -113,7 +113,7 @@
                             <input type="radio" id="primero-geografia" name="respuesta-2">
                             <label for="primero-geografia" class="label-pregunta-test">
                                 <div class="-n">
-                                    <img src="./assets/imgs/art.png" alt="Icono de Matemáticas">
+                                    <img src="./assets/imgs/geografia.png" alt="Icono de Matemáticas">
                                 </div>
                                 <div class="text">
                                     <h4>Geografía</h4>
@@ -127,7 +127,7 @@
                             <input type="radio" id="primero-historia" name="respuesta-2">
                             <label for="primero-historia" class="label-pregunta-test">
                                 <div class="-n">
-                                    <img src="./assets/imgs/art.png" alt="Icono de Matemáticas">
+                                    <img src="./assets/imgs/historia.png" alt="Icono de Matemáticas">
                                 </div>
                                 <div class="text">
                                     <h4>Historia</h4>
@@ -141,7 +141,7 @@
                             <input type="radio" id="primero-ingles" name="respuesta-2">
                             <label for="primero-ingles" class="label-pregunta-test">
                                 <div class="-n">
-                                    <img src="./assets/imgs/art.png" alt="Icono de Matemáticas">
+                                    <img src="./assets/imgs/ingles.png" alt="Icono de Matemáticas">
                                 </div>
                                 <div class="text">
                                     <h4>Inglés</h4>
@@ -155,7 +155,7 @@
                             <input type="radio" id="primero-matematicas" name="respuesta-2">
                             <label for="primero-matematicas" class="label-pregunta-test">
                                 <div class="-n">
-                                    <img src="./assets/imgs/mathematics.png" alt="Icono de Matemáticas">
+                                    <img src="./assets/imgs/matematicas.png" alt="Icono de Matemáticas">
                                 </div>
                                 <div class="text">
                                     <h4>Matemáticas</h4>
@@ -180,7 +180,7 @@
                             <input type="radio" id="segundo-espanol" name="respuesta-2">
                             <label for="segundo-espanol" class="label-pregunta-test">
                                 <div class="-n">
-                                    <img src="./assets/imgs/science.png" alt="Icono de Física">
+                                    <img src="./assets/imgs/espanol.png" alt="Icono de Física">
                                 </div>
                                 <div class="text">
                                     <h4>Español</h4>
@@ -193,7 +193,7 @@
                             <input type="radio" id="segundo-fce" name="respuesta-2">
                             <label for="segundo-fce" class="label-pregunta-test">
                                 <div class="-n">
-                                    <img src="./assets/imgs/chemistry.png" alt="Icono de Química">
+                                    <img src="./assets/imgs/fce.png" alt="Icono de Química">
                                 </div>
                                 <div class="text">
                                     <h4>FCE</h4>
@@ -206,7 +206,7 @@
                             <input type="radio" id="segundo-fisica" name="respuesta-2">
                             <label for="segundo-fisica" class="label-pregunta-test">
                                 <div class="-n">
-                                    <img src="./assets/imgs/chemistry.png" alt="Icono de Química">
+                                    <img src="./assets/imgs/fisica.png" alt="Icono de Química">
                                 </div>
                                 <div class="text">
                                     <h4>Física</h4>
@@ -219,7 +219,7 @@
                             <input type="radio" id="segundo-historia" name="respuesta-2">
                             <label for="segundo-historia" class="label-pregunta-test">
                                 <div class="-n">
-                                    <img src="./assets/imgs/mathematics.png" alt="Icono de Matemáticas">
+                                    <img src="./assets/imgs/historia.png" alt="Icono de Matemáticas">
                                 </div>
                                 <div class="text">
                                     <h4>Historia</h4>
@@ -232,7 +232,7 @@
                             <input type="radio" id="segundo-ingles" name="respuesta-2">
                             <label for="segundo-ingles" class="label-pregunta-test">
                                 <div class="-n">
-                                    <img src="./assets/imgs/language.png" alt="Icono de Matemáticas">
+                                    <img src="./assets/imgs/ingles.png" alt="Icono de Matemáticas">
                                 </div>
                                 <div class="text">
                                     <h4>Inglés</h4>
@@ -245,7 +245,7 @@
                             <input type="radio" id="segundo-matematicas" name="respuesta-2">
                             <label for="segundo-matematicas" class="label-pregunta-test">
                                 <div class="-n">
-                                    <img src="./assets/imgs/art.png" alt="Icono de Matemáticas">
+                                    <img src="./assets/imgs/matematicas.png" alt="Icono de Matemáticas">
                                 </div>
                                 <div class="text">
                                     <h4>Matemáticas</h4>
@@ -272,7 +272,7 @@
                             <input type="radio" id="tercero-espanol" name="respuesta-2">
                             <label for="tercero-espanol" class="label-pregunta-test">
                                 <div class="-n">
-                                    <img src="./assets/imgs/science.png" alt="Icono de Física">
+                                    <img src="./assets/imgs/espanol.png" alt="Icono de Física">
                                 </div>
                                 <div class="text">
                                     <h4>Español</h4>
@@ -285,7 +285,7 @@
                             <input type="radio" id="tercero-fce" name="respuesta-2">
                             <label for="tercero-fce" class="label-pregunta-test">
                                 <div class="-n">
-                                    <img src="./assets/imgs/chemistry.png" alt="Icono de Química">
+                                    <img src="./assets/imgs/fce.png" alt="Icono de Química">
                                 </div>
                                 <div class="text">
                                     <h4>FCE</h4>
@@ -294,11 +294,11 @@
                             </label>
                         </div>
                         <div class="card" id="tercero-historia-materia">
-                            <input type="radio" id="tercero-historia" name="respuesta-2">
                             <div class="mt-5 position-absolute d-flex align-items-center justify-content-end" style="width: 5%; margin-left: 95%;"><a href="{{url('/recursos/tercer-grado/historia')}}" class="mt-2 mr-2 mr-md-3 mr-lg-4">VER</a> </div>
+                            <input type="radio" id="tercero-historia" name="respuesta-2">
                             <label for="tercero-historia" class="label-pregunta-test">
                                 <div class="-n">
-                                    <img src="./assets/imgs/mathematics.png" alt="Icono de Matemáticas">
+                                    <img src="./assets/imgs/historia.png" alt="Icono de Matemáticas">
                                 </div>
                                 <div class="text">
                                     <h4>Historia</h4>
@@ -311,7 +311,7 @@
                             <input type="radio" id="tercero-ingles" name="respuesta-2">
                             <label for="tercero-ingles" class="label-pregunta-test">
                                 <div class="-n">
-                                    <img src="./assets/imgs/language.png" alt="Icono de Matemáticas">
+                                    <img src="./assets/imgs/ingles.png" alt="Icono de Matemáticas">
                                 </div>
                                 <div class="text">
                                     <h4>Inglés</h4>
@@ -324,7 +324,7 @@
                             <input type="radio" id="tercero-matematicas" name="respuesta-2">
                             <label for="tercero-matematicas" class="label-pregunta-test">
                                 <div class="-n">
-                                    <img src="./assets/imgs/computer.png" alt="Icono de Matemáticas">
+                                    <img src="./assets/imgs/matematicas.png" alt="Icono de Matemáticas">
                                 </div>
                                 <div class="text">
                                     <h4>Matemáticas</h4>
@@ -338,7 +338,7 @@
                             <input type="radio" id="tercero-quimica" name="respuesta-2">
                             <label for="tercero-quimica" class="label-pregunta-test">
                                 <div class="-n">
-                                    <img src="./assets/imgs/science.png" alt="Icono de Física">
+                                    <img src="./assets/imgs/quimica.png" alt="Icono de Física">
                                 </div>
                                 <div class="text">
                                     <h4>Química</h4>
