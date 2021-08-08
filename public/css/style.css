@@ -10,6 +10,10 @@ font-family: 'Poppins', sans-serif;
     --dark-blue: #003D6F;
     --gray: #5B5B5E;
 }
+/*Títulos de inicio*/
+.main-titles{
+    color: white;
+}
 
 * {
     padding: 0;
@@ -440,8 +444,10 @@ footer .rrss-footer a:last-child {
 .container-main .school-resources .title h2,
 .container-main .scanned-book .title h2 {
     font-size: 3.2rem;
-    font-family: 'Neucha', sans-serif;
-    color: var(--dark-blue);
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    /*color: var(--dark-blue);*/
+    color: #4a5568;
 }
 
 .container-cards input[type=radio] {
@@ -911,6 +917,22 @@ footer .rrss-footer a:last-child {
 
 .selected-button{
     background: red;
+}
+
+/*Botón de inicio*/
+#inicio{
+    text-decoration: none;
+    color: lightseagreen;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    transition-duration: 0.3s;
+    border-bottom: 3px solid lightskyblue;
+}
+#inicio:hover{
+    transition-duration: 0.2s;
+    font-size: 2.1rem;
+    border-top: 3px solid lightskyblue;
 }
 
 

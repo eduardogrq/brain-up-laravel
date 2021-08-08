@@ -8,7 +8,7 @@
 
                 <div class="school-grades">
                     <div class="title">
-                        <h2>Grado</h2>
+                        <h2 class="main-titles">Grado</h2>
                     </div>
                     <form action="">
                         <div class="container-cards">
@@ -360,7 +360,7 @@
 
                 <!-- Recursos de Biologia -->
                 <div class="school-resources" id="biologia-recursos">
-                    <div class="title ml-5">
+                    <div class="title">
                         <h2>Recursos Biologia</h2>
                     </div>
                     <div class="contain-books">
@@ -599,7 +599,7 @@
 
                 <!-- Recursos Español -->
                 <div class="school-resources d-none" id="segundo-espanol-recursos">
-                    <div class="title ml-5">
+                    <div class="title">
                         <h2>Recursos Español</h2>
                     </div>
                     <div class="contain-books">
@@ -634,7 +634,7 @@
 
                 <!-- Recursos fce -->
                 <div class="school-resources d-none" id="segundo-fce-recursos">
-                    <div class="title ml-5">
+                    <div class="title">
                         <h2>Recursos FCE</h2>
                     </div>
                     <div class="contain-books">
@@ -678,7 +678,7 @@
 
                 <!-- Recursos Física -->
                 <div class="school-resources d-none" id="segundo-fisica-recursos">
-                    <div class="title ml-5">
+                    <div class="title">
                         <h2>Recursos Física</h2>
                     </div>
                     <div class="contain-books">
@@ -712,7 +712,7 @@
 
                 <!-- Recursos Historia -->
                 <div class="school-resources d-none" id="segundo-historia-recursos">
-                    <div class="title ml-5">
+                    <div class="title">
                         <h2>Recursos Historia</h2>
                     </div>
                     <div class="contain-books">
@@ -738,7 +738,7 @@
 
                 <!-- Recursos Inglés -->
                 <div class="school-resources d-none" id="segundo-ingles-recursos">
-                    <div class="title ml-5">
+                    <div class="title">
                         <h2>Recursos Inglés</h2>
                     </div>
                     <div class="contain-books">
@@ -757,7 +757,7 @@
 
                 <!-- Recursos Matemáticas -->
                 <div class="school-resources d-none" id="segundo-matematicas-recursos">
-                    <div class="title ml-5">
+                    <div class="title">
                         <h2>Recursos Matemáticas</h2>
                     </div>
                     <div class="contain-books">
@@ -812,7 +812,7 @@
                 <!-- Recursos Español -->
 
                 <div class="school-resources d-none" id="tercero-espanol-recursos">
-                    <div class="title ml-5">
+                    <div class="title">
                         <h2>Recursos Español</h2>
                     </div>
                     <div class="contain-books">
@@ -848,7 +848,7 @@
                 <!-- Recursos FCE -->
 
                 <div class="school-resources d-none" id="tercero-fce-recursos">
-                    <div class="title ml-5">
+                    <div class="title">
                         <h2>Recursos FCE</h2>
                     </div>
                     <div class="contain-books">
@@ -892,7 +892,7 @@
                 <!-- Recursos Historia -->
 
                 <div class="school-resources d-none" id="tercero-historia-recursos">
-                    <div class="title ml-5">
+                    <div class="title">
                         <h2>Recursos Historia</h2>
                     </div>
                     <div class="contain-books">
@@ -920,7 +920,7 @@
                 <!-- Recursos Inglés -->
 
                 <div class="school-resources d-none" id="tercero-ingles-recursos">
-                    <div class="title ml-5">
+                    <div class="title">
                         <h2>Recursos Inglés</h2>
                     </div>
                     <div class="contain-books">
@@ -939,7 +939,7 @@
                 <!-- Recursos Matemáticas -->
 
                 <div class="school-resources d-none" id="tercero-matematicas-recursos">
-                    <div class="title ml-5">
+                    <div class="title">
                         <h2>Recursos Matemáticas</h2>
                     </div>
                     <div class="contain-books">
@@ -990,7 +990,7 @@
                 <!-- Recursos Química -->
 
                 <div class="school-resources d-none" id="tercero-quimica-recursos">
-                    <div class="title ml-5">
+                    <div class="title">
                         <h2>Recursos Química</h2>
                     </div>
                     <div class="contain-books">

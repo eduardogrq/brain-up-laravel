@@ -32,14 +32,14 @@
         <div class="container-main container-scanned-book">
         <div class="max-w">
             <div class="scanned-book">
-                <div class="title">
+                <div class="title text-center">
                     <h2>Primer grado</h2>
                 </div>
                 <a href="../../../assets/pdf/primero/biologia/GDT_S_1er Año Biología.pdf" target="_blank" style="color: black;" class="book">
                     <div class="cover-page">
                         <img src="../../../assets/pdf/primero/biologia/GDT_S_1er Año Biología Alumno Portada.jpg" alt="Portada del libro escaneado">
                     </div>
-                    <div class="title-book">
+{{--                    <div class="title-book">--}}
                         <h4>Biología</h4>
 
                     </div>
@@ -91,7 +91,7 @@
             <div class="container-main container-scanned-book">
                 <div class="max-w">
                     <div class="scanned-book">
-                        <div class="title">
+                        <div class="title text-center">
                             <h2>Primer grado</h2>
                         </div>
                         <a href="../../../assets/pdf/primero/espanol/GDT_S_1er Año Español.pdf" target="_blank" style="color: black;" class="book">
@@ -143,7 +143,7 @@
             <div class="container-main container-scanned-book">
                 <div class="max-w">
                     <div class="scanned-book">
-                        <div class="title">
+                        <div class="title text-center">
                             <h2>Primer grado</h2>
                         </div>
                         <a href="../../../assets/pdf/primero/FCE/GDT_S_1er Año FCE.pdf" target="_blank" style="color: black;" class="book">
@@ -203,7 +203,7 @@
             <div class="container-main container-scanned-book">
                 <div class="max-w">
                     <div class="scanned-book">
-                        <div class="title">
+                        <div class="title text-center">
                             <h2>Primer grado</h2>
                         </div>
                         <a href="../../../assets/pdf/primero/geografia/GDT_S_1er Año Geografía.pdf" target="_blank" style="color: black;" class="book">
@@ -247,7 +247,7 @@
             <div class="container-main container-scanned-book">
                 <div class="max-w">
                     <div class="scanned-book">
-                        <div class="title">
+                        <div class="title text-center">
                             <h2>Primer grado</h2>
                         </div>
                         <a href="../../../assets/pdf/primero/Historia/GDT_S_1er Año Historia.pdf" target="_blank" style="color: black;" class="book">
@@ -291,7 +291,7 @@
             <div class="container-main container-scanned-book">
                 <div class="max-w">
                     <div class="scanned-book">
-                        <div class="title">
+                        <div class="title text-center">
                             <h2>Primer grado</h2>
                         </div>
                         <a href="../../../assets/pdf/primero/ingles/GDT_S_1er Año Inglés.pdf" target="_blank" style="color: black;" class="book">
@@ -327,7 +327,7 @@
             <div class="container-main container-scanned-book">
                 <div class="max-w">
                     <div class="scanned-book">
-                        <div class="title">
+                        <div class="title text-center">
                             <h2>Primer grado</h2>
                         </div>
                         <a href="../../../assets/pdf/primero/matematicas/GDT_S_1er Año Matemáticas.pdf" target="_blank" style="color: black;" class="book">
@@ -404,7 +404,7 @@
             <div class="container-main container-scanned-book">
                 <div class="max-w">
                     <div class="scanned-book">
-                        <div class="title">
+                        <div class="title text-center">
                             <h2>Segundo grado</h2>
                         </div>
                         <a href="../../../assets/pdf/segundo/espanol/GDT_S_2o Año Español.pdf" target="_blank" style="color: black;" class="book">
@@ -455,7 +455,7 @@
         @elseif($materia == 'fce')
             <div class="container-main container-scanned-book">
                 <div class="max-w">
-                    <div class="scanned-book">
+                    <div class="title text-center">
                         <div class="title">
                             <h2>Segundo grado</h2>
                         </div>
@@ -516,7 +516,7 @@
             <div class="container-main container-scanned-book">
                 <div class="max-w">
                     <div class="scanned-book">
-                        <div class="title">
+                        <div class="title text-center">
                             <h2>Segundo grado</h2>
                         </div>
                         <a href="../../../assets/pdf/segundo/fisica/GDT_S_2o Año Física.pdf" target="_blank" style="color: black;" class="book">
@@ -568,7 +568,7 @@
             <div class="container-main container-scanned-book">
                 <div class="max-w">
                     <div class="scanned-book">
-                        <div class="title">
+                        <div class="title text-center">
                             <h2>Segundo grado</h2>
                         </div>
                         <a href="../../../assets/pdf/segundo/Historia/GDT_S_2o Año Historia.pdf" target="_blank" style="color: black;" class="book">
@@ -612,7 +612,7 @@
             <div class="container-main container-scanned-book">
                 <div class="max-w">
                     <div class="scanned-book">
-                        <div class="title">
+                        <div class="title text-center">
                             <h2>Segundo grado</h2>
                         </div>
                         <a href="../../../assets/pdf/segundo/ingles/GDT_S_2o Año Inglés.pdf" target="_blank" style="color: black;" class="book">
@@ -648,7 +648,7 @@
             <div class="container-main container-scanned-book">
                 <div class="max-w">
                     <div class="scanned-book">
-                        <div class="title">
+                        <div class="title text-center">
                             <h2>Segundo grado</h2>
                         </div>
                         <a href="../../../assets/pdf/segundo/matematicas/GDT_S_2o Año Matemáticas.pdf" target="_blank" style="color: black;" class="book">
@@ -724,7 +724,7 @@
             <div class="container-main container-scanned-book">
                 <div class="max-w">
                     <div class="scanned-book">
-                        <div class="title">
+                        <div class="title text-center">
                             <h2>Tercer grado</h2>
                         </div>
                         <a href="../../../assets/pdf/tercero/espanol/GDT_S_3er Año Español.pdf" target="_blank" style="color: black;" class="book">
@@ -776,7 +776,7 @@
             <div class="container-main container-scanned-book">
                 <div class="max-w">
                     <div class="scanned-book">
-                        <div class="title">
+                        <div class="title text-center">
                             <h2>Tercer grado</h2>
                         </div>
                         <a href="../../../assets/pdf/tercero/FCE/GDT_S_3er Año FCE.pdf" target="_blank" style="color: black;" class="book">
@@ -836,7 +836,7 @@
             <div class="container-main container-scanned-book">
                 <div class="max-w">
                     <div class="scanned-book">
-                        <div class="title">
+                        <div class="title text-center">
                             <h2>Tercer grado</h2>
                         </div>
                         <a href="../../../assets/pdf/tercero/Historia/GDT_S_3er Año Historia.pdf" target="_blank" style="color: black;" class="book">
@@ -880,7 +880,7 @@
             <div class="container-main container-scanned-book">
                 <div class="max-w">
                     <div class="scanned-book">
-                        <div class="title">
+                        <div class="title text-center">
                             <h2>Tercer grado</h2>
                         </div>
                         <a href="../../../assets/pdf/tercero/ingles/GDT_S_3er Año Inglés.pdf" target="_blank" style="color: black;" class="book">
@@ -916,7 +916,7 @@
             <div class="container-main container-scanned-book">
                 <div class="max-w">
                     <div class="scanned-book">
-                        <div class="title">
+                        <div class="title text-center">
                             <h2>Tercer grado</h2>
                         </div>
                         <a href="../../../assets/pdf/tercero/matematicas/GDT_S_3er Año Matemáticas.pdf" target="_blank" style="color: black;" class="book">
@@ -984,7 +984,7 @@
             <div class="container-main container-scanned-book">
                 <div class="max-w">
                     <div class="scanned-book">
-                        <div class="title">
+                        <div class="title text-center">
                             <h2>Tercer grado</h2>
                         </div>
                         <a href="../../../assets/pdf/tercero/quimica/GDT_S_3er Año Química.pdf" target="_blank" style="color: black;" class="book">

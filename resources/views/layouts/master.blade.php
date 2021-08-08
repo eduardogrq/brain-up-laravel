@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+{{--    fonts--}}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500;600;800;900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,7 +34,7 @@
         <nav class="nav-one">
             <ol>
                 <li>
-                    <a style="text-decoration: none" href="{{route('index')}}">Inicio</a>
+                    <a id="inicio" href="{{route('index')}}">Inicio</a>
                 </li>
                 <!-- <li>
                     <a href="#">Sobre Nosotros</a>
@@ -247,7 +252,7 @@
                     <img src="./assets/imgs/logo.png" alt="Logo BrainUp">
                 </div>
                 <p>Copyright © 2021. Brain Up. Derechos <br> Reservados.</p>
-                <br> <br> <br>
+                <br> <br> <br> <br>
                 <p>Desarrollado por <a target="_blank" style="color: red; text-decoration: none" href="https://smartbis.com.mx/">Smartbis</a>.</p>
             </div>
 
