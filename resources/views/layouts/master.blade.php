@@ -55,7 +55,7 @@
         <nav class="menuppal">
             <ul>
                 <li>
-                    <a href="#">Inicio</a>
+                    <a onclick="first()" href="{{route('index')}}">Inicio</a>
                 </li>
 
             </ul>

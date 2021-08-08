@@ -44,10 +44,8 @@
         </div>
         <nav class="menuppal">
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Sobre Nosotros</a></li>
-                <!-- <li><a href="#">Libros</a></li>
-                <li><a href="#">Recursos</a></li> -->
+                <li><a onclick="first()" href="{{route('index')}}">Inicio</a></li>
+
             </ul>
         </nav>
         <div class="logo">
