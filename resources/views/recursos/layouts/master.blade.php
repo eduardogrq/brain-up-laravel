@@ -24,7 +24,7 @@
         <nav class="nav-one">
             <ol>
                 <li>
-                    <a id="inicio" href="{{route('index')}}">Inicio</a>
+                    <a id="inicio" onclick="first()" href="{{route('index')}}">Inicio</a>
                 </li>
                 <!-- <li>
                     <a href="#">Sobre Nosotros</a>
@@ -51,7 +51,7 @@
             </ul>
         </nav>
         <div class="logo">
-            <a href="{{route('index')}}">
+            <a onclick="first()" href="{{route('index')}}">
                 <img src="./../../../assets/imgs/logo.png" alt="Logo de Brain Up">
             </a>
         </div>
