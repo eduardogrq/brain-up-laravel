@@ -18,8 +18,8 @@ Route::get('/', function () {
     return view('welcome');
 })->name('index');
 
-Route::get('/recursos/{grado}/{materia}', [BookController::class, 'book'])->name('recursos.materia')->middleware('HttpsProtocol');
+Route::get('/recursos/{grado}/{materia}', [BookController::class, 'book'])->name('recursos.materia');
 
-Route::get('/maestros/recursos', [BookController::class, 'maestro'])->name('recursos.maestro')->middleware('HttpsProtocol');
+Route::get('/maestros/recursos', [BookController::class, 'maestro'])->name('recursos.maestro');
 
-Route::get('/videos/{grado}', [BookController::class, 'video'])->name('video.index')->middleware('HttpsProtocol');
+Route::get('/videos/{grado}', [BookController::class, 'video'])->name('video.index');
