@@ -3,9 +3,6 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Barryvdh\Debugbar;
-use Barryvdh\Debugbar\Twig\Extension\Debug;
-
 
 class AppServiceProvider extends ServiceProvider
 {
