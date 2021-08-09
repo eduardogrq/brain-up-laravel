@@ -3,6 +3,9 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Barryvdh\Debugbar;
+use Barryvdh\Debugbar\Twig\Extension\Debug;
+
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -13,7 +16,14 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        //check that app is local
+        if ($this->app->isLocal()) {
+//if local register your services you require for development
+            $this->app->register('Barryvdh\Debugbar\ServiceProvider');
+        } else {
+//else register your services you require for production
+            $this->app['request']->server->set('HTTPS', true);
+        }
     }
 
     /**
