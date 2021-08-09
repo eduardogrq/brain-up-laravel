@@ -39,7 +39,7 @@
                     <div class="cover-page">
                         <img src="../../../assets/pdf/primero/biologia/GDT_S_1er Año Biología Alumno Portada.jpg" alt="Portada del libro escaneado">
                     </div>
-{{--                    <div class="title-book">--}}
+                    <div class="title-book">
                         <h4>Biología</h4>
 
                     </div>
