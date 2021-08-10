@@ -93,4 +93,8 @@ class BookController extends Controller
     public function maestro(){
         return view('recursos.maestros.index');
     }
+
+    public function ajustes(){
+        return view('ajustes-razonables');
+    }
 }

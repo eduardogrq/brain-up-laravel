@@ -23,3 +23,5 @@ Route::get('/recursos/{grado}/{materia}', [BookController::class, 'book'])->name
 Route::get('/maestros/recursos', [BookController::class, 'maestro'])->name('recursos.maestro');
 
 Route::get('/videos/{grado}', [BookController::class, 'video'])->name('video.index');
+
+Route::get('/ajustes-razonables', [BookController::class, 'ajustes'])->name('ajustes');
