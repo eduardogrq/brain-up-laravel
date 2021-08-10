@@ -3,24 +3,21 @@
 @section('content')
 
     @if($grado === 'primer-grado')
-
         <div class="container-main bg-blue-light container-video-display">
             <div class="max-w">
                 <div class="btn-return">
                     <div class="arrow-right">
                         <img src="./../../../assets/icons/left.svg" alt="icono">
                     </div>
-                    <p>Regresar</p>
+                    <p><a href="{{route('index')}}" style="text-decoration: none; color: black">Regresar</a></p>
                 </div>
-                <div class="display-video  m-3">
-                    <div class="text-video">
-                        <h2>Título del Vídeo</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet feugiat lorem. Fusce sagittis id risus quis maximus. Donec feugiat, massa sed fringilla eleifend, purus felis volutpat nibh, at porta tortor enim sit amet ante. Nunc scelerisque vitae diam sed porta. Vestibulum tristique est eu commodo bibendum.
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet feugiat lorem. Fusce sagittis id risus quis maximus. Donec feugiat, massa sed fringilla eleifend, purus felis volutpat nibh, at porta tortor enim sit amet ante. Nunc scelerisque vitae diam sed porta. Vestibulum tristique est eu commodo bibendum.
-                        </p>
+                <div class="display-video w-100 m-3">
+                    <div class="text-video d-flex flex-column justify-content-center align-items-center">
+                        <div ><h2>Guiones Didácticos Tutoriales</h2></div>
+                        <div ><h2>PRIMER GRADO</h2></div>
+
+
+
                         <div class="next-btn">
                             <a href="{{route('index')}}">
                                 <button onclick="first()">Siguiente</button>
@@ -39,17 +36,13 @@
                     <div class="arrow-right">
                         <img src="./../../../assets/icons/left.svg" alt="icono">
                     </div>
-                    <p>Regresar</p>
+                    <p><a href="{{route('index')}}" style="text-decoration: none; color: black">Regresar</a></p>
                 </div>
-                <div class="display-video  m-3">
-                    <div class="text-video">
-                        <h2>Título del Vídeo</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet feugiat lorem. Fusce sagittis id risus quis maximus. Donec feugiat, massa sed fringilla eleifend, purus felis volutpat nibh, at porta tortor enim sit amet ante. Nunc scelerisque vitae diam sed porta. Vestibulum tristique est eu commodo bibendum.
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet feugiat lorem. Fusce sagittis id risus quis maximus. Donec feugiat, massa sed fringilla eleifend, purus felis volutpat nibh, at porta tortor enim sit amet ante. Nunc scelerisque vitae diam sed porta. Vestibulum tristique est eu commodo bibendum.
-                        </p>
+                <div class="display-video w-100 m-3">
+                    <div class="text-video d-flex flex-column justify-content-center align-items-center">
+                        <div ><h2>Guiones Didácticos Tutoriales</h2></div>
+                        <div ><h2>SEGUNDO GRADO</h2></div>
+
                         <div class="next-btn">
                             <a onclick="second()" href="{{route('index')}}">
                                 <button >Siguiente</button>
@@ -71,17 +64,13 @@
                     <div class="arrow-right">
                         <img src="./../../../assets/icons/left.svg" alt="icono">
                     </div>
-                    <p>Regresar</p>
+                    <p><a href="{{route('index')}}" style="text-decoration: none; color: black">Regresar</a></p>
                 </div>
-                <div class="display-video  m-3">
-                    <div class="text-video">
-                        <h2>Título del Vídeo</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet feugiat lorem. Fusce sagittis id risus quis maximus. Donec feugiat, massa sed fringilla eleifend, purus felis volutpat nibh, at porta tortor enim sit amet ante. Nunc scelerisque vitae diam sed porta. Vestibulum tristique est eu commodo bibendum.
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet feugiat lorem. Fusce sagittis id risus quis maximus. Donec feugiat, massa sed fringilla eleifend, purus felis volutpat nibh, at porta tortor enim sit amet ante. Nunc scelerisque vitae diam sed porta. Vestibulum tristique est eu commodo bibendum.
-                        </p>
+                <div class="display-video w-100 m-3">
+                    <div class="text-video d-flex flex-column justify-content-center align-items-center">
+                        <div ><h2>Guiones Didácticos Tutoriales</h2></div>
+                        <div ><h2>TERCER GRADO</h2></div>
+
                         <div class="next-btn">
                             <a onclick="third()" href="{{route('index')}}">
                                 <button>Siguiente</button>
