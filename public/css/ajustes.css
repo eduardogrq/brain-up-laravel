@@ -85,6 +85,19 @@ body{ color: rgba(0,0,0,.87); font-size: 1rem; line-height: 1.5;
     background-image: url(https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
 }
 
+video{
+    width: 640px;
+    height: 480px;
+}
+
+@media ( max-width: 680px) {
+    video{
+        width: 500px;
+        height: 250px;
+    }
+
+}
+
 @media (max-width: 500px) {
     .card{
         width: 200px; /* Box dimensions */
@@ -100,4 +113,13 @@ body{ color: rgba(0,0,0,.87); font-size: 1rem; line-height: 1.5;
         font-size: 1.5rem;
     }
 
+    video{
+        width: 300px;
+        height: 230px;
+    }
+
 }
+
+
+
+

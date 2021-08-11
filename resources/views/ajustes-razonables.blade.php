@@ -20,6 +20,7 @@
     <div class="wrapper">
 
 
+        <video  src="/assets/pdf/ajustes_razonables/ajustes-razonables-compressed.mp4" controls autoplay></video>
         <!-- Using an img TAG -->
         <a target="_blank" href="/assets/pdf/ajustes_razonables/Ajustes Razonables Ed Epecial.pdf">
             <div class="card">
@@ -29,6 +30,8 @@
                 </figure>
             </div>
         </a>
+
+
 
         <!-- Setting background-image on CSS -->
 {{--        <div class="card has-bg-img bg-img-nature">--}}
