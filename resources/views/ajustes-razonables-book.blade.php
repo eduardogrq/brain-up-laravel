@@ -18,6 +18,14 @@
         gtag('js', new Date());
 
         gtag('config', 'UA-204214874-1');
+
+        function handleOutboundLinkClicks(event){
+            gtag('event', 'Clic', {
+                'event_category' : 'Descargas',
+                'event_label' : 'Libro Ajustes Razonables'
+            });
+        }
+
     </script>
 
 </head>
@@ -32,7 +40,7 @@
     <div class="wrapper">
 
         <!-- Using an img TAG -->
-        <a target="_blank" href="/assets/pdf/ajustes_razonables/Ajustes_Razonables_Ed_Epecial.pdf">
+        <a target="_blank" href="/assets/pdf/ajustes_razonables/Ajustes_Razonables_Ed_Epecial.pdf" onclick="handleOutboundLinkClicks()">
             <div class="card">
                 <!-- The background image -->
                 <figure class="card__thumbnail">
@@ -43,9 +51,10 @@
 
     </div>
 
-    <div class="container">
+    <div class="container mt-5">
         <div class="row justify-content-center">
-            <a target="_blank" class="btn btn-success text-light" href="/assets/pdf/ajustes_razonables/Ajustes_Razonables_Ed_Epecial.pdf" onClick="_gaq.push (‘[_trackEvent’ ,’ Descargas’ ,’ PDF’ ,’ Pdf Corporativo’ , 0,2])" >Descargar</a>
+{{--            <a target="_blank" class="btn btn-success text-light" href="/assets/pdf/ajustes_razonables/Ajustes_Razonables_Ed_Epecial.pdf" onClick="_gaq.push (‘[_trackEvent’ ,’ Descargas’ ,’ PDF’ ,’ Pdf Corporativo’ , 0,2])" >Descargar</a>--}}
+            <a class="btn btn-primary" target="_blank" href="/assets/pdf/ajustes_razonables/Ajustes_Razonables_Ed_Epecial.pdf" onclick="handleOutboundLinkClicks()">Descargar</a>
         </div>
     </div>
 
