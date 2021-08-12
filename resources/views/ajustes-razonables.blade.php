@@ -35,7 +35,7 @@
 
     </div>
 
-    <div class="container">
+    <div class="container mb-5">
         <div class="row justify-content-center">
             <a href="{{route('ajustes.libro')}}" class="btn btn-primary text-light">Siguiente</a>
         </div>
