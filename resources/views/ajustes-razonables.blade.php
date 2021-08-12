@@ -28,38 +28,19 @@
             <div class="col-12  text-center pb-5"><h1 class="card__title">AJUSTES RAZONABLES</h1></div>
         </div>
     </div>
+
     <div class="wrapper">
 
-
         <video  src="/assets/pdf/ajustes_razonables/ajustes-razonables-compressed.mp4" controls autoplay></video>
-        <!-- Using an img TAG -->
-        <a target="_blank" href="/assets/pdf/ajustes_razonables/Ajustes Razonables Ed Epecial.pdf">
-            <div class="card">
-                <!-- The background image -->
-                <figure class="card__thumbnail">
-                        <img src="assets/pdf/ajustes_razonables/ajustes_razonables_portada.jpg">
-                </figure>
-            </div>
-        </a>
-
-
-
-        <!-- Setting background-image on CSS -->
-{{--        <div class="card has-bg-img bg-img-nature">--}}
-{{--            <span class="card__title">Using background-size on CSS</span>--}}
-{{--        </div>--}}
-
-{{--        <!-- Setting background-image on the STYLE attribute -->--}}
-{{--        <div class="card has-bg-img" style="background-image: url(https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ)">--}}
-{{--            <span class="card__title">Using background-size on HTML</span>--}}
-{{--        </div>--}}
-
-{{--        <!-- Setting background-image with JS -->--}}
-{{--        <div id="iam-the-card" class="card has-bg-img">--}}
-{{--            <span class="card__title">Using background-size on JS</span>--}}
-{{--        </div>--}}
 
     </div>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <a href="{{route('ajustes.libro')}}" class="btn btn-primary text-light">Siguiente</a>
+        </div>
+    </div>
+
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

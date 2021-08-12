@@ -97,4 +97,8 @@ class BookController extends Controller
     public function ajustes(){
         return view('ajustes-razonables');
     }
+
+    public function ajustesLibro(){
+        return view('ajustes-razonables-book');
+    }
 }
