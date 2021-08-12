@@ -51,9 +51,8 @@
 
     </div>
 
-    <div class="container mt-5">
+    <div class="container mb-5">
         <div class="row justify-content-center">
-{{--            <a target="_blank" class="btn btn-success text-light" href="/assets/pdf/ajustes_razonables/Ajustes_Razonables_Ed_Epecial.pdf" onClick="_gaq.push (‘[_trackEvent’ ,’ Descargas’ ,’ PDF’ ,’ Pdf Corporativo’ , 0,2])" >Descargar</a>--}}
             <a class="btn btn-primary" target="_blank" href="/assets/pdf/ajustes_razonables/Ajustes_Razonables_Ed_Epecial.pdf" onclick="handleOutboundLinkClicks()">Descargar</a>
         </div>
     </div>
