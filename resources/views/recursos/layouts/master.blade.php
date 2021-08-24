@@ -251,8 +251,7 @@
                     <img src="./../../../assets/imgs/logo.png" alt="Logo BrainUp">
                 </div>
                 <p>Copyright © 2021. Brain Up. Derechos <br> Reservados.</p>
-                <br> <br> <br> <br>
-                <p>Desarrollado por <a target="_blank" style="color: red; text-decoration: none" href="https://smartbis.com.mx/">Smartbis</a>.</p>
+                <br> <br>
             </div>
 
 
