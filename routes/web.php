@@ -27,3 +27,7 @@ Route::get('/videos/{grado}', [BookController::class, 'video'])->name('video.ind
 // Ajustes razonables
 Route::get('/ajustes-razonables', [BookController::class, 'ajustes'])->name('ajustes');
 Route::get('/ajustes-razonables-libro', [BookController::class, 'ajustesLibro'])->name('ajustes.libro');
+
+//Preescolar matemáticas
+Route::get('preescolar-matematicas-3', [BookController::class, 'preescolar'])->name('preescolar.matematicas');
+Route::get('preescolar-matematicas-3-libro', [BookController::class, 'preescolarLibro'])->name('preescolar.matematicas.libro');

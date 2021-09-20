@@ -101,4 +101,12 @@ class BookController extends Controller
     public function ajustesLibro(){
         return view('ajustes-razonables-book');
     }
+
+    public function preescolar(){
+        return view('preescolar-matematicas-3');
+    }
+
+    public function preescolarLibro(){
+        return view('preescolar-matematicas-3-libro');
+    }
 }

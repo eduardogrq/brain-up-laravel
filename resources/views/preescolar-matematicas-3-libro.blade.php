@@ -9,7 +9,7 @@
     <link rel="shortcut icon" type="image/jpg" href="/assets/imgs/favicon.png">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/ajustes.css">
+    <link rel="stylesheet" href="css/preescolar.css">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-204214874-1"></script>
@@ -19,6 +19,14 @@
         gtag('js', new Date());
 
         gtag('config', 'UA-204214874-1');
+
+        function handleOutboundLinkClicks(event){
+            gtag('event', 'Clic', {
+                'event_category' : 'Descargas',
+                'event_label' : 'Libro Ajustes Razonables'
+            });
+        }
+
     </script>
 
 </head>
@@ -32,13 +40,21 @@
 
 <div class="wrapper">
 
-    <video  src="/assets/pdf/ajustes_razonables/ajustes-razonables-compressed.mp4" controls autoplay></video>
+    <!-- Using an img TAG -->
+    <a target="_blank" href="/assets/pdf/preescolar_matematicas_3/Preescolar-Matematicas-3.pdf" onclick="handleOutboundLinkClicks()">
+        <div class="card">
+            <!-- The background image -->
+            <figure class="card__thumbnail">
+                <img src="assets/pdf/preescolar_matematicas_3/Portada-Preescolar-Matematicas-3.jpg">
+            </figure>
+        </div>
+    </a>
 
 </div>
 
 <div class="container mb-5">
     <div class="row justify-content-center">
-        <a href="{{route('preescolar.matematicas.libro')}}" class="btn btn-primary text-light">Siguiente</a>
+        <a class="btn btn-primary" target="_blank" href="/assets/pdf/preescolar_matematicas_3/Preescolar-Matematicas-3.pdf" onclick="handleOutboundLinkClicks()">Descargar</a>
     </div>
 </div>
 
