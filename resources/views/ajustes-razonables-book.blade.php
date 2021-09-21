@@ -21,8 +21,8 @@
         gtag('config', 'UA-204214874-1');
 
         function handleOutboundLinkClicks(event){
-            gtag('event', 'Clic', {
-                'event_category' : 'Descargas',
+            gtag('event', 'Descargas', {
+                'event_category' : 'Clic',
                 'event_label' : 'Libro Ajustes Razonables'
             });
         }
