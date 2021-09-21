@@ -82,6 +82,14 @@
                             <h4>Leo, <br> comprendo, <br> aprendo II</h4>
                         </div>
                     </a>
+                    <a target="_blank" href="../../../assets/pdf/primero/FCE/Carpeta FCE/Colección Hablemos en familia_Educación sexual.pdf" class="book">
+                        <div class="cover-page">
+                            <img class="rounded" src="../../../assets/pdf/primero/FCE/Carpeta FCE/Colección Hablemos en familia_Educación sexual Portada.jpg" alt="Portada libro">
+                        </div>
+                        <div class="title-book">
+                            <h4>Colección <br> Hablemos <br> en familia <br> Educación <br>sexual</h4>
+                        </div>
+                    </a>
 
                 </div>
             </div>
