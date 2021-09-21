@@ -21,9 +21,9 @@
         gtag('config', 'UA-204214874-1');
 
         function handleOutboundLinkClicks(event){
-            gtag('event', 'Clic', {
-                'event_category' : 'Descargas',
-                'event_label' : 'Libro Ajustes Razonables'
+            gtag('event', 'Descargas', {
+                'event_category' : 'Clic',
+                'event_label' : 'Libro Preescolar Matematicas 3'
             });
         }
 
