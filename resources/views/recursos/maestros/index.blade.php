@@ -71,7 +71,7 @@
                             <h4>Estilos de <br> aprendizaje</h4>
                         </div>
                     </a>
-                    <a target="_blank" href="./../../../assets/pdf/maestros/recursos/Organización pedagógica de las experiencias de aprendizaje.pdf" class="book mb-lg-5 mb-xl-0">
+                    <a target="_blank" href="./../../../assets/pdf/maestros/recursos/Organización pedagógica de las experiencias de aprendizaje.pdf" class="book pb-5 mb-xl-0">
                         <div class="cover-page">
                             <img class="rounded" src="./../../../assets/pdf/maestros/recursos/Organización pedagógica de las experiencias de aprendizaje Portada.jpg" alt="Portada libro">
                         </div>
