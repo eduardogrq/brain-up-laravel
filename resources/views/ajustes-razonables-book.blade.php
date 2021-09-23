@@ -20,10 +20,19 @@
 
         gtag('config', 'UA-204214874-1');
 
-        function handleOutboundLinkClicks(event){
-            gtag('event', 'Descargas', {
-                'event_category' : 'Clic',
-                'event_label' : 'Libro Ajustes Razonables'
+        // function handleOutboundLinkClicks(event){
+        //     gtag('event', 'Descargas', {
+        //         'event_category' : 'Clic',
+        //         'event_label' : 'Libro Ajustes Razonables'
+        //     });
+        // }
+
+        var handleOutboundLinkClicks = function(url){
+            gtag('event', 'Clic', {
+                'event_category': 'Descargas',
+                'event_label': 'Libro Ajustes Razonables',
+                'transport_type': 'beacon',
+                'event_callback': function(){document.location = url;}
             });
         }
 
@@ -54,7 +63,7 @@
 
     <div class="container mb-5">
         <div class="row justify-content-center">
-            <a class="btn btn-primary" target="_blank" href="/assets/pdf/ajustes_razonables/Ajustes_Razonables_Ed_Epecial.pdf" onclick="handleOutboundLinkClicks()">Descargar</a>
+            <a class="btn btn-primary" target="_blank" href="/assets/pdf/ajustes_razonables/Ajustes_Razonables_Ed_Epecial.pdf" onclick="handleOutboundLinkClicks('/assets/pdf/ajustes_razonables/Ajustes_Razonables_Ed_Epecial.pdf'); return false;">Descargar</a>
         </div>
     </div>
 
