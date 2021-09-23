@@ -884,6 +884,12 @@ footer .rrss-footer a:last-child {
     footer .footer-down .contain-email button {
         margin-left: -53px;
     }
+
+    .subtitulosAsignaturas h3{
+        color: #4a5568;
+        font-size: 20px;
+        font-family: 'Montserrat';
+    }
 }
 
 @media (max-width: 487px) {
@@ -936,3 +942,29 @@ footer .rrss-footer a:last-child {
 }
 
 
+/*Subtítulos*/
+
+.subtitle{
+    font-size: 3.2rem;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    /*color: var(--dark-blue);*/
+    color: #4a5568;
+}
+
+.books-title{
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: #000;
+}
+/*Programas asignaturas*/
+.subtitulosAsignaturas h3{
+    color: #4a5568;
+    font-size: 20px;
+    font-family: 'Montserrat';
+}
+#programasAsignaturas{
+    margin-bottom: 100px;
+}

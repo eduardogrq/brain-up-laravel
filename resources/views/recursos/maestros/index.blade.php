@@ -82,6 +82,72 @@
 
                 </div>
             </div>
+
+
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row" id="programasAsignaturas">
+            <div class="col-12 my-5 mt-lg-0">
+                <h2 class="text-center subtitle">Programas por Asignatura</h2>
+            </div>
+            <div class="col-12 my-5 d-flex subtitulosAsignaturas">
+                <h3>Programas 2017 para 1er y 2do año</h3>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-12 text-center">
+                <img class="rounded my-2" src="./../../../assets/pdf/maestros/recursos/Catálogo de programas y acciones del DTS 2017-2018 Portada.jpg" alt="Portada libro">
+                <h4 class="books-title">Título del libro</h4>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-12 text-center">
+                <img class="rounded my-2" src="./../../../assets/pdf/maestros/recursos/Catálogo de programas y acciones del DTS 2017-2018 Portada.jpg" alt="Portada libro">
+                <h4 class="books-title">Título del libro</h4>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-12 text-center">
+                <img class="rounded my-2" src="./../../../assets/pdf/maestros/recursos/Catálogo de programas y acciones del DTS 2017-2018 Portada.jpg" alt="Portada libro">
+                <h4 class="books-title">Título del libro</h4>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-12 text-center">
+                <img class="rounded my-2" src="./../../../assets/pdf/maestros/recursos/Catálogo de programas y acciones del DTS 2017-2018 Portada.jpg" alt="Portada libro">
+                <h4 class="books-title">Título del libro</h4>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-12 text-center">
+                <img class="rounded my-2" src="./../../../assets/pdf/maestros/recursos/Catálogo de programas y acciones del DTS 2017-2018 Portada.jpg" alt="Portada libro">
+                <h4 class="books-title">Título del libro</h4>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-12 text-center">
+                <img class="rounded my-2" src="./../../../assets/pdf/maestros/recursos/Catálogo de programas y acciones del DTS 2017-2018 Portada.jpg" alt="Portada libro">
+                <h4 class="books-title">Título del libro</h4>
+            </div>
+
+            <div class="col-12 my-5 pt-5 subtitulosAsignaturas">
+                <h3>Programas 2011 para 3er año</h3>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-12 text-center">
+                <img class="rounded my-2" src="./../../../assets/pdf/maestros/recursos/Catálogo de programas y acciones del DTS 2017-2018 Portada.jpg" alt="Portada libro">
+                <h4 class="books-title">Título del libro</h4>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-12 text-center">
+                <img class="rounded my-2" src="./../../../assets/pdf/maestros/recursos/Catálogo de programas y acciones del DTS 2017-2018 Portada.jpg" alt="Portada libro">
+                <h4 class="books-title">Título del libro</h4>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-12 text-center">
+                <img class="rounded my-2" src="./../../../assets/pdf/maestros/recursos/Catálogo de programas y acciones del DTS 2017-2018 Portada.jpg" alt="Portada libro">
+                <h4 class="books-title">Título del libro</h4>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-12 text-center">
+                <img class="rounded my-2" src="./../../../assets/pdf/maestros/recursos/Catálogo de programas y acciones del DTS 2017-2018 Portada.jpg" alt="Portada libro">
+                <h4 class="books-title">Título del libro</h4>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-12 text-center">
+                <img class="rounded my-2" src="./../../../assets/pdf/maestros/recursos/Catálogo de programas y acciones del DTS 2017-2018 Portada.jpg" alt="Portada libro">
+                <h4 class="books-title">Título del libro</h4>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-12 text-center">
+                <img class="rounded my-2" src="./../../../assets/pdf/maestros/recursos/Catálogo de programas y acciones del DTS 2017-2018 Portada.jpg" alt="Portada libro">
+                <h4 class="books-title">Título del libro</h4>
+            </div>
+
         </div>
     </div>
 
