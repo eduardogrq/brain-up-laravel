@@ -95,57 +95,59 @@
             <div class="col-12 my-5 d-flex subtitulosAsignaturas">
                 <h3>Programas 2017 para 1er y 2do año</h3>
             </div>
-            <div class="col-lg-2 col-md-3 col-sm-4 col-12 text-center">
-                <img class="rounded my-2" src="./../../../assets/pdf/maestros/recursos/Catálogo de programas y acciones del DTS 2017-2018 Portada.jpg" alt="Portada libro">
-                <h4 class="books-title">Título del libro</h4>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-12 mb-5 text-center">
+                <a href="./../../../assets/pdf/maestros/recursos/asignaturas/primero_segundo/1. Lengua Materna Espanol.pdf" target="_blank">
+                    <img class="rounded my-2" src="./../../../assets/pdf/maestros/recursos/asignaturas/primero_segundo/1. Portada Lengua Materna Espanol.png" alt="Portada libro">
+                    <h4 class="books-title">Lengua Materna Espanol</h4>
+                </a>
             </div>
-            <div class="col-lg-2 col-md-3 col-sm-4 col-12 text-center">
-                <img class="rounded my-2" src="./../../../assets/pdf/maestros/recursos/Catálogo de programas y acciones del DTS 2017-2018 Portada.jpg" alt="Portada libro">
-                <h4 class="books-title">Título del libro</h4>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-12 mb-5 text-center">
+                <a href="./../../../assets/pdf/maestros/recursos/asignaturas/primero_segundo/2. Matemáticas.pdf" target="_blank">
+                    <img class="rounded my-2" src="./../../../assets/pdf/maestros/recursos/asignaturas/primero_segundo/2. Portada Matemáticas.png" alt="Portada libro">
+                    <h4 class="books-title">Matemáticas</h4>
+                </a>
             </div>
-            <div class="col-lg-2 col-md-3 col-sm-4 col-12 text-center">
-                <img class="rounded my-2" src="./../../../assets/pdf/maestros/recursos/Catálogo de programas y acciones del DTS 2017-2018 Portada.jpg" alt="Portada libro">
-                <h4 class="books-title">Título del libro</h4>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-12 mb-5 text-center">
+                <a href="./../../../assets/pdf/maestros/recursos/asignaturas/primero_segundo/3. Ciencias y Tecnología.pdf" target="_blank">
+                    <img class="rounded my-2" src="./../../../assets/pdf/maestros/recursos/asignaturas/primero_segundo/3. Portada Ciencias y Tecnología.png" alt="Portada libro">
+                    <h4 class="books-title">Ciencias y Tecnología</h4>
+                </a>
             </div>
-            <div class="col-lg-2 col-md-3 col-sm-4 col-12 text-center">
-                <img class="rounded my-2" src="./../../../assets/pdf/maestros/recursos/Catálogo de programas y acciones del DTS 2017-2018 Portada.jpg" alt="Portada libro">
-                <h4 class="books-title">Título del libro</h4>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-12 mb-5 text-center">
+                <a href="./../../../assets/pdf/maestros/recursos/asignaturas/primero_segundo/4. Historia.pdf" target="_blank">
+                    <img class="rounded my-2" src="./../../../assets/pdf/maestros/recursos/asignaturas/primero_segundo/4. Portada Historia.png" alt="Portada libro">
+                    <h4 class="books-title">Historia</h4>
+                </a>
             </div>
-            <div class="col-lg-2 col-md-3 col-sm-4 col-12 text-center">
-                <img class="rounded my-2" src="./../../../assets/pdf/maestros/recursos/Catálogo de programas y acciones del DTS 2017-2018 Portada.jpg" alt="Portada libro">
-                <h4 class="books-title">Título del libro</h4>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-12 mb-5 text-center">
+                <a href="./../../../assets/pdf/maestros/recursos/asignaturas/primero_segundo/5. Geografía.pdf" target="_blank">
+                    <img class="rounded my-2" src="./../../../assets/pdf/maestros/recursos/asignaturas/primero_segundo/5. Portada Geografía.png" alt="Portada libro">
+                    <h4 class="books-title">Geografía</h4>
+                </a>
             </div>
-            <div class="col-lg-2 col-md-3 col-sm-4 col-12 text-center">
-                <img class="rounded my-2" src="./../../../assets/pdf/maestros/recursos/Catálogo de programas y acciones del DTS 2017-2018 Portada.jpg" alt="Portada libro">
-                <h4 class="books-title">Título del libro</h4>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-12 mb-5 text-center">
+                <a href="./../../../assets/pdf/maestros/recursos/asignaturas/primero_segundo/6. Formación Cívica y Ética.pdf" target="_blank">
+                    <img class="rounded my-2" src="./../../../assets/pdf/maestros/recursos/asignaturas/primero_segundo/6. Portada Formación Cívica y Ética.png" alt="Portada libro">
+                    <h4 class="books-title">Formación Cívica y Ética</h4>
+                </a>
             </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-12 mb-5 text-center">
+                <a href="./../../../assets/pdf/maestros/recursos/asignaturas/primero_segundo/9. Lengua extranjera. Inglés.pdf" target="_blank">
+                    <img class="rounded my-2" src="./../../../assets/pdf/maestros/recursos/asignaturas/primero_segundo/9. Programa Lengua extranjera Inglés.png" alt="Portada libro">
+                    <h4 class="books-title">Lengua extranjera. Inglés</h4>
+                </a>
+            </div>
+
+{{--            Segunda sección--}}
 
             <div class="col-12 my-5 pt-5 subtitulosAsignaturas">
                 <h3>Programas 2011 para 3er año</h3>
             </div>
-            <div class="col-lg-2 col-md-3 col-sm-4 col-12 text-center">
-                <img class="rounded my-2" src="./../../../assets/pdf/maestros/recursos/Catálogo de programas y acciones del DTS 2017-2018 Portada.jpg" alt="Portada libro">
-                <h4 class="books-title">Título del libro</h4>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-4 col-12 text-center">
-                <img class="rounded my-2" src="./../../../assets/pdf/maestros/recursos/Catálogo de programas y acciones del DTS 2017-2018 Portada.jpg" alt="Portada libro">
-                <h4 class="books-title">Título del libro</h4>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-4 col-12 text-center">
-                <img class="rounded my-2" src="./../../../assets/pdf/maestros/recursos/Catálogo de programas y acciones del DTS 2017-2018 Portada.jpg" alt="Portada libro">
-                <h4 class="books-title">Título del libro</h4>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-4 col-12 text-center">
-                <img class="rounded my-2" src="./../../../assets/pdf/maestros/recursos/Catálogo de programas y acciones del DTS 2017-2018 Portada.jpg" alt="Portada libro">
-                <h4 class="books-title">Título del libro</h4>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-4 col-12 text-center">
-                <img class="rounded my-2" src="./../../../assets/pdf/maestros/recursos/Catálogo de programas y acciones del DTS 2017-2018 Portada.jpg" alt="Portada libro">
-                <h4 class="books-title">Título del libro</h4>
-            </div>
-            <div class="col-lg-2 col-md-3 col-sm-4 col-12 text-center">
-                <img class="rounded my-2" src="./../../../assets/pdf/maestros/recursos/Catálogo de programas y acciones del DTS 2017-2018 Portada.jpg" alt="Portada libro">
-                <h4 class="books-title">Título del libro</h4>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-12 mb-5 text-center">
+                <a href="./../../../assets/pdf/maestros/recursos/asignaturas/primero_segundo/1. Lengua Materna Espanol.pdf" target="_blank">
+                    <img class="rounded my-2" src="./../../../assets/pdf/maestros/recursos/asignaturas/primero_segundo/1. Portada Lengua Materna Espanol.png" alt="Portada libro">
+                    <h4 class="books-title">Lengua Materna Espanol</h4>
+                </a>
             </div>
 
         </div>
