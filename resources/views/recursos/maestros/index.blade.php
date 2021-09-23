@@ -144,9 +144,45 @@
                 <h3>Programas 2011 para 3er año</h3>
             </div>
             <div class="col-lg-2 col-md-3 col-sm-4 col-12 mb-5 text-center">
-                <a href="./../../../assets/pdf/maestros/recursos/asignaturas/primero_segundo/1. Lengua Materna Espanol.pdf" target="_blank">
-                    <img class="rounded my-2" src="./../../../assets/pdf/maestros/recursos/asignaturas/primero_segundo/1. Portada Lengua Materna Espanol.png" alt="Portada libro">
-                    <h4 class="books-title">Lengua Materna Espanol</h4>
+                <a href="./../../../assets/pdf/maestros/recursos/asignaturas/tercero/1 Formación Cívica y  Ética 2011.pdf" target="_blank">
+                    <img class="rounded my-2" src="./../../../assets/pdf/maestros/recursos/asignaturas/tercero/1 Portada Formación Cívica y  Ética 2011.png" alt="Portada libro">
+                    <h4 class="books-title">Formación Cívica y  Ética 2011</h4>
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-12 mb-5 text-center">
+                <a href="./../../../assets/pdf/maestros/recursos/asignaturas/tercero/2 Ciencias 2011.pdf" target="_blank">
+                    <img class="rounded my-2" src="./../../../assets/pdf/maestros/recursos/asignaturas/tercero/2 Portada Ciencias 2011.png" alt="Portada libro">
+                    <h4 class="books-title">Ciencias 2011</h4>
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-12 mb-5 text-center">
+                <a href="./../../../assets/pdf/maestros/recursos/asignaturas/tercero/3 Español 2011.pdf" target="_blank">
+                    <img class="rounded my-2" src="./../../../assets/pdf/maestros/recursos/asignaturas/tercero/3 Portada Español 2011.png" alt="Portada libro">
+                    <h4 class="books-title">Español 2011</h4>
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-12 mb-5 text-center">
+                <a href="./../../../assets/pdf/maestros/recursos/asignaturas/tercero/4 Geografía de Mexico y del mundo 2011.pdf" target="_blank">
+                    <img class="rounded my-2" src="./../../../assets/pdf/maestros/recursos/asignaturas/tercero/4 Portada Geografía de Mexico y del mundo 2011.png" alt="Portada libro">
+                    <h4 class="books-title">Geografía de Mexico y del mundo 2011</h4>
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-12 mb-5 text-center">
+                <a href="./../../../assets/pdf/maestros/recursos/asignaturas/tercero/5 Historia 2011.pdf" target="_blank">
+                    <img class="rounded my-2" src="./../../../assets/pdf/maestros/recursos/asignaturas/tercero/5 Portada Historia 2011.png" alt="Portada libro">
+                    <h4 class="books-title">Historia 2011</h4>
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-12 mb-5 text-center">
+                <a href="./../../../assets/pdf/maestros/recursos/asignaturas/tercero/6 Inglés 2011.pdf" target="_blank">
+                    <img class="rounded my-2" src="./../../../assets/pdf/maestros/recursos/asignaturas/tercero/6 Portada Inglés 2011.png" alt="Portada libro">
+                    <h4 class="books-title">Inglés 2011</h4>
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-12 mb-5 text-center">
+                <a href="./../../../assets/pdf/maestros/recursos/asignaturas/tercero/7 Matematicas 2011.pdf" target="_blank">
+                    <img class="rounded my-2" src="./../../../assets/pdf/maestros/recursos/asignaturas/tercero/7 Portada Matematicas 2011.png" alt="Portada libro">
+                    <h4 class="books-title">Matematicas 2011</h4>
                 </a>
             </div>
 
