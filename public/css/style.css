@@ -399,9 +399,9 @@ footer .rrss-footer a:last-child {
 
 .container-main .max-w{
     display: flex;
-    min-height: 90vh;
+    min-height: 70vh;
     box-sizing: border-box;
-    margin: 0 auto;
+    margin: 0 auto 50px auto;
 }
 
 .container-main .school-grades,
