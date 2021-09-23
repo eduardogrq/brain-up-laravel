@@ -20,10 +20,19 @@
 
         gtag('config', 'UA-204214874-1');
 
-        function handleOutboundLinkClicks(event){
-            gtag('event', 'Descargas', {
-                'event_category' : 'Clic',
-                'event_label' : 'Libro Preescolar Matematicas 3'
+        // function handleOutboundLinkClicks(event){
+        //     gtag('event', 'Descargas', {
+        //         'event_category' : 'Clic',
+        //         'event_label' : 'Libro Preescolar Matematicas 3'
+        //     });
+        // }
+
+        var handleOutboundLinkClicks = function(url){
+            gtag('event', 'Clic', {
+                'event_category': 'Descargas',
+                'event_label': 'Libro Preescolar Matematicas 3',
+                'transport_type': 'beacon',
+                'event_callback': function(){document.location = url;}
             });
         }
 
@@ -41,7 +50,7 @@
 <div class="wrapper">
 
     <!-- Using an img TAG -->
-    <a target="_blank" href="/assets/pdf/preescolar_matematicas_3/Preescolar-Matematicas-3.pdf" onclick="handleOutboundLinkClicks()">
+    <a target="_blank" href="/assets/pdf/preescolar_matematicas_3/Preescolar-Matematicas-3.pdf" onclick="handleOutboundLinkClicks('/assets/pdf/preescolar_matematicas_3/Preescolar-Matematicas-3.pdf'); return false;">
         <div class="card">
             <!-- The background image -->
             <figure class="card__thumbnail">
@@ -54,7 +63,7 @@
 
 <div class="container mb-5">
     <div class="row justify-content-center">
-        <a class="btn btn-primary" target="_blank" href="/assets/pdf/preescolar_matematicas_3/Preescolar-Matematicas-3.pdf" onclick="handleOutboundLinkClicks()">Descargar</a>
+        <a class="btn btn-primary" target="_blank" href="/assets/pdf/preescolar_matematicas_3/Preescolar-Matematicas-3.pdf" onclick="handleOutboundLinkClicks('/assets/pdf/preescolar_matematicas_3/Preescolar-Matematicas-3.pdf'); return false;">Descargar</a>
     </div>
 </div>
 

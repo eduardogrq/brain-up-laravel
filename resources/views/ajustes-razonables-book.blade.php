@@ -50,7 +50,7 @@
     <div class="wrapper">
 
         <!-- Using an img TAG -->
-        <a target="_blank" href="/assets/pdf/ajustes_razonables/Ajustes_Razonables_Ed_Epecial.pdf" onclick="handleOutboundLinkClicks()">
+        <a target="_blank" href="/assets/pdf/ajustes_razonables/Ajustes_Razonables_Ed_Epecial.pdf" onclick="handleOutboundLinkClicks('/assets/pdf/ajustes_razonables/Ajustes_Razonables_Ed_Epecial.pdf'); return false;">
             <div class="card">
                 <!-- The background image -->
                 <figure class="card__thumbnail">
