@@ -23,20 +23,20 @@
                 </div>
                 <div class="contain-books">
 
-                    <a target="_blank" href="./../../../assets/pdf/maestros/recursos/Catálogo de programas y acciones del DTS 2017-2018.pdf" class="book">
-                        <div class="cover-page">
-                            <img class="rounded" src="./../../../assets/pdf/maestros/recursos/Catálogo de programas y acciones del DTS 2017-2018 Portada.jpg" alt="Portada libro">
-                        </div>
-                        <div class="title-book">
-                            <h4>Catálogo de <br> programas y <br> acciones del <br> DTS <br> 2017-2018</h4>
-                        </div>
-                    </a>
+{{--                    <a target="_blank" href="./../../../assets/pdf/maestros/recursos/Catálogo de programas y acciones del DTS 2017-2018.pdf" class="book">--}}
+{{--                        <div class="cover-page">--}}
+{{--                            <img class="rounded" src="./../../../assets/pdf/maestros/recursos/Catálogo de programas y acciones del DTS 2017-2018 Portada.jpg" alt="Portada libro">--}}
+{{--                        </div>--}}
+{{--                        <div class="title-book">--}}
+{{--                            <h4>Catálogo de <br> programas y <br> acciones del <br> DTS <br> 2017-2018</h4>--}}
+{{--                        </div>--}}
+{{--                    </a>--}}
                     <a target="_blank" href="./../../../assets/pdf/maestros/recursos/catálogo de Programas y Acciones del DTS 2019-2020.pdf" class="book">
                         <div class="cover-page">
                             <img class="rounded" src="./../../../assets/pdf/maestros/recursos/catálogo de Programas y Acciones del DTS 2019-2020 Portada.jpg" alt="Portada libro">
                         </div>
                         <div class="title-book">
-                            <h4>catálogo de <br> Programas y <br> Acciones del <br> DTS <br> 2019-2020</h4>
+                            <h4>Catálogo de <br> Programas y <br> Acciones del <br> DTS <br> 2019-2020</h4>
                         </div>
                     </a>
                     <a target="_blank" href="./../../../assets/pdf/maestros/recursos/Cuaderno de Prácticas de Laboratorio de Ciencias I.pdf" class="book">
