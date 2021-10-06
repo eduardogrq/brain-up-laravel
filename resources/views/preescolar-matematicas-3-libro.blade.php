@@ -50,7 +50,7 @@
 <div class="wrapper">
 
     <!-- Using an img TAG -->
-    <a target="_blank" href="/assets/pdf/preescolar_matematicas_3/Preescolar-Matematicas-3.pdf" onclick="handleOutboundLinkClicks('/assets/pdf/preescolar_matematicas_3/Preescolar-Matematicas-3.pdf'); return false;">
+    <a target="_blank" href="/assets/pdf/preescolar_matematicas_3/preescolar-mate-3.pdf" onclick="handleOutboundLinkClicks('/assets/pdf/preescolar_matematicas_3/preescolar-mate-3.pdf'); return false;">
         <div class="card">
             <!-- The background image -->
             <figure class="card__thumbnail">
@@ -63,7 +63,7 @@
 
 <div class="container mb-5">
     <div class="row justify-content-center">
-        <a class="btn btn-primary" target="_blank" href="/assets/pdf/preescolar_matematicas_3/Preescolar-Matematicas-3.pdf" onclick="handleOutboundLinkClicks('/assets/pdf/preescolar_matematicas_3/Preescolar-Matematicas-3.pdf'); return false;">Descargar</a>
+        <a class="btn btn-primary" target="_blank" href="/assets/pdf/preescolar_matematicas_3/preescolar-mate-3.pdf" onclick="handleOutboundLinkClicks('/assets/pdf/preescolar_matematicas_3/preescolar-mate-3.pdf'); return false;">Descargar</a>
     </div>
 </div>
 
